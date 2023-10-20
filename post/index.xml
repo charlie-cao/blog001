@@ -1,0 +1,2947 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Hugo Theme Stack Starter</title><link>https://demo.stack.jimmycai.com/post/</link><description>Recent content in Posts on Hugo Theme Stack Starter</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://demo.stack.jimmycai.com/p/hello-world/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/hello-world/</guid><description>&lt;img src="https://demo.stack.jimmycai.com/p/hello-world/cover.jpg" alt="Featured image of post Hello World" />&lt;p>这个世界我来了&lt;/p>
+&lt;p>这开发效率有点高啊&lt;/p></description></item><item><title>Markdown Syntax Guide</title><link>https://demo.stack.jimmycai.com/p/markdown-syntax-guide/</link><pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/markdown-syntax-guide/</guid><description>&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p>
+&lt;h2 id="headings">Headings&lt;/h2>
+&lt;p>The following HTML &lt;code>&amp;lt;h1&amp;gt;&lt;/code>—&lt;code>&amp;lt;h6&amp;gt;&lt;/code> elements represent six levels of section headings. &lt;code>&amp;lt;h1&amp;gt;&lt;/code> is the highest section level while &lt;code>&amp;lt;h6&amp;gt;&lt;/code> is the lowest.&lt;/p>
+&lt;h1 id="h1">H1&lt;/h1>
+&lt;h2 id="h2">H2&lt;/h2>
+&lt;h3 id="h3">H3&lt;/h3>
+&lt;h4 id="h4">H4&lt;/h4>
+&lt;h5 id="h5">H5&lt;/h5>
+&lt;h6 id="h6">H6&lt;/h6>
+&lt;h2 id="paragraph">Paragraph&lt;/h2>
+&lt;p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p>
+&lt;p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p>
+&lt;h2 id="blockquotes">Blockquotes&lt;/h2>
+&lt;p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code>footer&lt;/code> or &lt;code>cite&lt;/code> element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p>
+&lt;h3 id="blockquote-without-attribution">Blockquote without attribution&lt;/h3>
+&lt;blockquote>
+&lt;p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+&lt;strong>Note&lt;/strong> that you can use &lt;em>Markdown syntax&lt;/em> within a blockquote.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="blockquote-with-attribution">Blockquote with attribution&lt;/h3>
+&lt;blockquote>
+&lt;p>Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;br>
+— &lt;cite>Rob Pike&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/cite>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="tables">Tables&lt;/h2>
+&lt;p>Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Age&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Bob&lt;/td>
+&lt;td>27&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Alice&lt;/td>
+&lt;td>23&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="inline-markdown-within-tables">Inline Markdown within tables&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Italics&lt;/th>
+&lt;th>Bold&lt;/th>
+&lt;th>Code&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;em>italics&lt;/em>&lt;/td>
+&lt;td>&lt;strong>bold&lt;/strong>&lt;/td>
+&lt;td>&lt;code>code&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>A&lt;/th>
+&lt;th>B&lt;/th>
+&lt;th>C&lt;/th>
+&lt;th>D&lt;/th>
+&lt;th>E&lt;/th>
+&lt;th>F&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/td>
+&lt;td>Phasellus ultricies, sapien non euismod aliquam, dui ligula tincidunt odio, at accumsan nulla sapien eget ex.&lt;/td>
+&lt;td>Proin eleifend dictum ipsum, non euismod ipsum pulvinar et. Vivamus sollicitudin, quam in pulvinar aliquam, metus elit pretium purus&lt;/td>
+&lt;td>Proin sit amet velit nec enim imperdiet vehicula.&lt;/td>
+&lt;td>Ut bibendum vestibulum quam, eu egestas turpis gravida nec&lt;/td>
+&lt;td>Sed scelerisque nec turpis vel viverra. Vivamus vitae pretium sapien&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="code-blocks">Code Blocks&lt;/h2>
+&lt;h3 id="code-block-with-backticks">Code block with backticks&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&amp;lt;!doctype html&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">html&lt;/span> &lt;span class="na">lang&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;en&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">charset&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;utf-8&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Example HTML5 Document&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Test&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="code-block-indented-with-four-spaces">Code block indented with four spaces&lt;/h3>
+&lt;pre>&lt;code>&amp;lt;!doctype html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+&amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+&amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;h3 id="diff-code-block">Diff code block&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-diff" data-lang="diff">&lt;span class="line">&lt;span class="cl">[dependencies.bevy]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git = &amp;#34;https://github.com/bevyengine/bevy&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">rev = &amp;#34;11f52b8c72fc3a568e8bb4a4cd1f3eb025ac2e13&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gd">- features = [&amp;#34;dynamic&amp;#34;]
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gd">&lt;/span>&lt;span class="gi">+ features = [&amp;#34;jpeg&amp;#34;, &amp;#34;dynamic&amp;#34;]
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="one-line-code-block">One line code block&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>A paragraph&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="list-types">List Types&lt;/h2>
+&lt;h3 id="ordered-list">Ordered List&lt;/h3>
+&lt;ol>
+&lt;li>First item&lt;/li>
+&lt;li>Second item&lt;/li>
+&lt;li>Third item&lt;/li>
+&lt;/ol>
+&lt;h3 id="unordered-list">Unordered List&lt;/h3>
+&lt;ul>
+&lt;li>List item&lt;/li>
+&lt;li>Another item&lt;/li>
+&lt;li>And another item&lt;/li>
+&lt;/ul>
+&lt;h3 id="nested-list">Nested list&lt;/h3>
+&lt;ul>
+&lt;li>Fruit
+&lt;ul>
+&lt;li>Apple&lt;/li>
+&lt;li>Orange&lt;/li>
+&lt;li>Banana&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Dairy
+&lt;ul>
+&lt;li>Milk&lt;/li>
+&lt;li>Cheese&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="other-elements--abbr-sub-sup-kbd-mark">Other Elements — abbr, sub, sup, kbd, mark&lt;/h2>
+&lt;p>&lt;abbr title="Graphics Interchange Format">GIF&lt;/abbr> is a bitmap image format.&lt;/p>
+&lt;p>H&lt;sub>2&lt;/sub>O&lt;/p>
+&lt;p>X&lt;sup>n&lt;/sup> + Y&lt;sup>n&lt;/sup> = Z&lt;sup>n&lt;/sup>&lt;/p>
+&lt;p>Press &lt;kbd>CTRL&lt;/kbd> + &lt;kbd>ALT&lt;/kbd> + &lt;kbd>Delete&lt;/kbd> to end the session.&lt;/p>
+&lt;p>Most &lt;mark>salamanders&lt;/mark> are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a class="link" href="https://www.youtube.com/watch?v=PAAkCSZUG1c" target="_blank" rel="noopener"
+>talk&lt;/a> during Gopherfest, November 18, 2015.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Image gallery</title><link>https://demo.stack.jimmycai.com/p/image-gallery/</link><pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/image-gallery/</guid><description>&lt;img src="https://demo.stack.jimmycai.com/p/image-gallery/2.jpg" alt="Featured image of post Image gallery" />&lt;p>Hugo theme Stack supports the creation of interactive image galleries using Markdown. It&amp;rsquo;s powered by &lt;a class="link" href="https://photoswipe.com/" target="_blank" rel="noopener"
+>PhotoSwipe&lt;/a> and its syntax was inspired by &lt;a class="link" href="https://typlog.com/" target="_blank" rel="noopener"
+>Typlog&lt;/a>.&lt;/p>
+&lt;p>To use this feature, the image must be in the same directory as the Markdown file, as it uses Hugo&amp;rsquo;s page bundle feature to read the dimensions of the image. &lt;strong>External images are not supported.&lt;/strong>&lt;/p>
+&lt;h2 id="syntax">Syntax&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">![&lt;span class="nt">Image 1&lt;/span>](&lt;span class="na">1.jpg&lt;/span>) ![&lt;span class="nt">Image 2&lt;/span>](&lt;span class="na">2.jpg&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="result">Result&lt;/h2>
+&lt;p>&lt;img src="https://demo.stack.jimmycai.com/p/image-gallery/1.jpg"
+width="2000"
+height="1400"
+srcset="https://demo.stack.jimmycai.com/p/image-gallery/1_hudd2e8259c20ed0dcaa856c253552e90f_14625_480x0_resize_q75_box.jpg 480w, https://demo.stack.jimmycai.com/p/image-gallery/1_hudd2e8259c20ed0dcaa856c253552e90f_14625_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="142"
+data-flex-basis="342px"
+> &lt;img src="https://demo.stack.jimmycai.com/p/image-gallery/2.jpg"
+width="1500"
+height="2250"
+srcset="https://demo.stack.jimmycai.com/p/image-gallery/2_hubce42636ecacc1a380b462f3110efcec_37455_480x0_resize_q75_box.jpg 480w, https://demo.stack.jimmycai.com/p/image-gallery/2_hubce42636ecacc1a380b462f3110efcec_37455_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="66"
+data-flex-basis="160px"
+>&lt;/p>
+&lt;blockquote>
+&lt;p>Photo by &lt;a class="link" href="https://unsplash.com/@mymind" target="_blank" rel="noopener"
+>mymind&lt;/a> and &lt;a class="link" href="https://unsplash.com/@lukechesser" target="_blank" rel="noopener"
+>Luke Chesser&lt;/a> on &lt;a class="link" href="https://unsplash.com/" target="_blank" rel="noopener"
+>Unsplash&lt;/a>&lt;/p>
+&lt;/blockquote></description></item><item><title>Shortcodes</title><link>https://demo.stack.jimmycai.com/p/shortcodes/</link><pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/shortcodes/</guid><description>&lt;img src="https://demo.stack.jimmycai.com/p/shortcodes/cover.jpg" alt="Featured image of post Shortcodes" />&lt;p>For more details, check out the &lt;a class="link" href="https://stack.jimmycai.com/writing/shortcodes" target="_blank" rel="noopener"
+>documentation&lt;/a>.&lt;/p>
+&lt;h2 id="bilibili-video">Bilibili video&lt;/h2>
+&lt;div class="video-wrapper">
+&lt;iframe src="https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV1d4411N7zD"
+scrolling="no"
+frameborder="no"
+framespacing="0"
+allowfullscreen="true"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;h2 id="tencent-video">Tencent video&lt;/h2>
+&lt;div class="video-wrapper">
+&lt;iframe src="https://v.qq.com/txp/iframe/player.html?vid=g0014r3khdw&amp;auto=0"
+scrolling="no"
+frameborder="no"
+framespacing="0"
+allowfullscreen="true"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;h2 id="youtube-video">YouTube video&lt;/h2>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/0qwALOOvUik"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;h2 id="generic-video-file">Generic video file&lt;/h2>
+&lt;div class="video-wrapper">
+&lt;video
+controls
+src="https://www.w3schools.com/tags/movie.mp4"
+>
+&lt;p>
+Your browser doesn't support HTML5 video. Here is a
+&lt;a href="https://www.w3schools.com/tags/movie.mp4">link to the video&lt;/a> instead.
+&lt;/p>
+&lt;/video>
+&lt;/div>
+&lt;h2 id="gist">Gist&lt;/h2>
+&lt;script type="application/javascript" src="https://gist.github.com/CaiJimmy/e2751a943de10b2a5b3a8a6c2120cb86.js">&lt;/script>
+&lt;h2 id="gitlab">GitLab&lt;/h2>
+&lt;script
+type="application/javascript"
+src="https://gitlab.com/-/snippets/2589724.js"
+>&lt;/script>
+&lt;h2 id="quote">Quote&lt;/h2>
+&lt;blockquote>
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>&lt;span class="cite">&lt;span>― &lt;/span>&lt;span>A famous person, &lt;/span>&lt;a href="https://en.wikipedia.org/wiki/Book">&lt;cite>The book they wrote&lt;/cite>&lt;/a>&lt;/span>&lt;/blockquote>
+&lt;hr>
+&lt;blockquote>
+&lt;p>Photo by &lt;a class="link" href="https://unsplash.com/@codioful" target="_blank" rel="noopener"
+>Codioful&lt;/a> on &lt;a class="link" href="https://unsplash.com/photos/WDSN62Qdxuk" target="_blank" rel="noopener"
+>Unsplash&lt;/a>&lt;/p>
+&lt;/blockquote></description></item><item><title>Math Typesetting</title><link>https://demo.stack.jimmycai.com/p/math-typesetting/</link><pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/math-typesetting/</guid><description>&lt;p>Stack has built-in support for math typesetting using &lt;a class="link" href="https://katex.org/" target="_blank" rel="noopener"
+>KaTeX&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>It&amp;rsquo;s not enabled by default side-wide,&lt;/strong> but you can enable it for individual posts by adding &lt;code>math: true&lt;/code> to the front matter. Or you can enable it side-wide by adding &lt;code>math = true&lt;/code> to the &lt;code>params.article&lt;/code> section in &lt;code>config.toml&lt;/code>.&lt;/p>
+&lt;h2 id="inline-math">Inline math&lt;/h2>
+&lt;p>This is an inline mathematical expression: $\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">$\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="block-math">Block math&lt;/h2>
+&lt;p>$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>$$
+f(x) = \int_{-\infty}^\infty\hat f(\xi),e^{2 \pi i \xi x},d\xi
+$$&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>chmod的使用方法
+chmod命令用于修改文件或目录的权限。&lt;/p>
+&lt;p>常用使用方法如下：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>修改特定文件或目录权限：chmod [权限] [文件/目录]
+例如：chmod 777 file.txt // 将file.txt文件的权限设置为rwxrwxrwx&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>修改权限组：chmod [权限组] [文件/目录]
+例如：chmod u+x file.txt // 将file.txt文件的所有者给予执行权限&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>修改权限符号：chmod [权限修改符号] [权限] [文件/目录]
+例如：
+chmod +x file.txt // 添加执行权限给文件
+chmod -w file.txt // 移除文件的写权限&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>使用数字形式表示权限：chmod [权限数字] [文件/目录]
+例如：chmod 755 file.txt // 将file.txt文件的权限设置为rwxr-xr-x&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>批量修改目录及其子目录权限：chmod -R [权限] [目录]
+例如：chmod -R 777 directory // 将directory目录及其子目录的权限设置为rwxrwxrwx&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>修改文件所有者：chown [新用户名] [文件]
+例如：chown john file.txt // 将file.txt文件的所有者修改为john&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>修改文件所属组：chgrp [新组名] [文件]
+例如：chgrp users file.txt // 将file.txt文件的所属组修改为users&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在命令行中链式使用chmod和chown：chmod [权限] [文件] &amp;amp;&amp;amp; chown [新用户名] [文件]
+例如：chmod 777 file.txt &amp;amp;&amp;amp; chown john file.txt // 将file.txt文件的权限设置为rwxrwxrwx并将所有者修改为john&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>利用chmod符号赋予文件执行权限：chmod u+x [文件]
+例如：chmod u+x script.sh // 给script.sh脚本文件的所有者添加执行权限&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>应用chmod递归修改目录权限：find [目录] -type d -exec chmod [权限] {} ;
+例如：find /path/to/directory -type d -exec chmod 755 {} ; // 将目录及其子目录的权限设置为rwxr-xr-x&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>以上是常用的chmod使用方法，可以根据具体需求进行调整。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>curl的使用方法
+curl是一个非常强大的命令行工具，用于与服务器进行数据交互。以下是curl的常用使用方法和常见实例：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>发送GET请求：
+&lt;code>curl https://example.com&lt;/code>
+发送GET请求并将响应输出到终端。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>发送POST请求：
+&lt;code>curl -X POST -d &amp;quot;param1=value1&amp;amp;param2=value2&amp;quot; https://example.com&lt;/code>
+发送POST请求并将参数以表单形式提交给服务器。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>发送PUT请求：
+&lt;code>curl -X PUT -d &amp;quot;data&amp;quot; https://example.com&lt;/code>
+发送PUT请求并将数据提交给服务器。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>发送DELETE请求：
+&lt;code>curl -X DELETE https://example.com&lt;/code>
+发送DELETE请求和指定的URL。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>下载文件：
+&lt;code>curl -O https://example.com/file.jpg&lt;/code>
+下载文件并将其保存到当前目录。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>上传文件：
+&lt;code>curl -F &amp;quot;file=@/path/to/file.jpg&amp;quot; https://example.com/upload&lt;/code>
+上传文件到指定的URL。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>设置请求头：
+&lt;code>curl -H &amp;quot;Content-Type: application/json&amp;quot; https://example.com&lt;/code>
+设置请求头中的Content-Type。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>设置cookie：
+&lt;code>curl -b &amp;quot;name=value&amp;quot; https://example.com&lt;/code>
+设置请求中的cookie。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>设置User-Agent：
+&lt;code>curl -A &amp;quot;Mozilla/5.0&amp;quot; https://example.com&lt;/code>
+设置请求中的User-Agent。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>设置代理：
+&lt;code>curl -x http://proxy.example.com:8080 https://example.com&lt;/code>
+使用代理请求URL。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>输出详细信息：
+&lt;code>curl -v https://example.com&lt;/code>
+输出请求和响应的详细信息。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>输出请求时间：
+&lt;code>curl -w &amp;quot;Total time: %{time_total}\n&amp;quot; -o /dev/null https://example.com&lt;/code>
+输出请求的总时间。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>限制请求时间：
+&lt;code>curl --max-time 10 https://example.com&lt;/code>
+设置请求的最大时间为10秒。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>断点续传：
+&lt;code>curl -C - -O https://example.com/file.jpg&lt;/code>
+从上次下载的位置继续下载文件。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>使用HTTP代理：
+&lt;code>curl --proxy http://proxy.example.com:8080 https://example.com&lt;/code>
+使用HTTP代理访问URL。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>忽略证书验证：
+&lt;code>curl -k https://example.com&lt;/code>
+忽略SSL证书验证。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>验证用户身份：
+&lt;code>curl --user username:password https://example.com&lt;/code>
+使用用户名和密码进行身份验证。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>发送JSON数据：
+&lt;code>curl -X POST -H &amp;quot;Content-Type: application/json&amp;quot; -d '{&amp;quot;key&amp;quot;: &amp;quot;value&amp;quot;}' https://example.com&lt;/code>
+发送JSON格式的数据。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>并发请求：
+&lt;code>curl http://{1..10}.example.com&lt;/code>
+并发发送10个请求。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>保存响应到文件：
+&lt;code>curl -o response.txt https://example.com&lt;/code>
+将响应保存到文件response.txt。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>请注意，上述示例中的URL仅为示意，您需要将其替换为实际的目标URL。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>dnf的使用方法
+DNF（Dandified Yum）是CentOS中用于包管理的工具，可以方便地安装、更新和删除软件包。下面是DNF的常用使用方法：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>安装软件包：使用以下命令安装软件包（例如安装vim）：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">dnf install vim
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>更新软件包：使用以下命令更新已安装的软件包：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">dnf update
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>删除软件包：使用以下命令删除已安装的软件包（例如删除vim）：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">dnf remove vim
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>搜索软件包：使用以下命令搜索可用的软件包（例如搜索vim）：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">dnf search vim
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>列出已安装的软件包：使用以下命令列出已安装的软件包：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">dnf list installed
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>列出可用的软件包：使用以下命令列出可用的软件包：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">dnf list available
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>列出已升级的软件包：使用以下命令列出已升级的软件包：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">dnf list updates
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>清理缓存：使用以下命令清理DNF缓存：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">dnf clean all
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>显示软件包的详细信息：使用以下命令显示软件包的详细信息（例如显示vim软件包的信息）：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">dnf info vim
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>同步软件包存储库：使用以下命令同步软件包存储库：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">dnf makecache
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>列出软件包的依赖关系：使用以下命令列出软件包的依赖关系（例如列出vim软件包的依赖关系）：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">dnf repoquery --requires vim
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>列出软件包被哪些其他软件包依赖：使用以下命令列出软件包被哪些其他软件包依赖（例如列出vim软件包被哪些其他软件包依赖）：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">dnf repoquery --whatrequires vim
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>列出软件包的文件提供者：使用以下命令列出软件包提供的文件（例如列出vim软件包提供的文件）：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">dnf repoquery --provides vim
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>列出软件包依赖的其他软件包：使用以下命令列出软件包依赖的其他软件包（例如列出vim软件包依赖的其他软件包）：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">dnf repoquery --depends vim
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>列出软件包的changelog：使用以下命令列出软件包的changelog信息（例如列出vim软件包的changelog信息）：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">dnf changelog vim
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>安装指定版本的软件包：使用以下命令安装指定版本的软件包（例如安装vim的2.0版本）：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">dnf install vim-2.0
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>禁用软件包的自动依赖解决：使用以下命令禁用软件包的自动依赖解决：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">dnf install --setopt=tsflags=nodocs package_name
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>列出软件包的源信息：使用以下命令列出软件包的源信息（例如列出vim软件包的源信息）：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">dnf repoquery --source vim
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>列出软件包的推荐安装列表：使用以下命令列出软件包的推荐安装列表（例如列出vim软件包的推荐安装列表）：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">dnf repoquery --recommendations vim
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>禁用软件包的自动更新：使用以下命令禁用软件包的自动更新：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">dnf config-manager --set-disabled package_name
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;/ol>
+&lt;p>这些是DNF的常用使用方法，可以较方便地进行包管理和操作。注意在执行某些命令时，可能需要以root用户身份运行或使用sudo命令。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>find的使用方法
+find命令用于在指定目录下搜索文件，可以通过多种选项和参数来满足不同的搜索需求。&lt;/p>
+&lt;p>find的常用使用方法包括：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>查找文件名：&lt;code>find /path/to/directory -name &amp;quot;filename&amp;quot;&lt;/code>
+例如：&lt;code>find /home -name &amp;quot;test.txt&amp;quot;&lt;/code>，在/home目录下查找名为test.txt的文件。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查找文件类型：&lt;code>find /path/to/directory -type f&lt;/code>
+例如：&lt;code>find /var/log -type f&lt;/code>，在/var/log目录下查找所有普通文件。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查找目录：&lt;code>find /path/to/directory -type d&lt;/code>
+例如：&lt;code>find /usr -type d&lt;/code>，在/usr目录下查找所有目录。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>根据文件大小查找：&lt;code>find /path/to/directory -size [+/-]size_unit&lt;/code>
+例如：&lt;code>find /var -size +1M&lt;/code>，在/var目录下查找大小超过1MB的文件。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>根据文件权限查找：&lt;code>find /path/to/directory -perm mode&lt;/code>
+例如：&lt;code>find /etc -perm 644&lt;/code>，在/etc目录下查找文件权限为644的文件。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>根据文件所有者查找：&lt;code>find /path/to/directory -user username&lt;/code>
+例如：&lt;code>find /home -user root&lt;/code>，在/home目录下查找所有属于root用户的文件。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>根据文件所属组查找：&lt;code>find /path/to/directory -group groupname&lt;/code>
+例如：&lt;code>find /var/log -group syslog&lt;/code>，在/var/log目录下查找所有属于syslog组的文件。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查找最近修改过的文件：&lt;code>find /path/to/directory -mtime days&lt;/code>
+例如：&lt;code>find /tmp -mtime -7&lt;/code>，在/tmp目录下查找7天内修改过的文件。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查找空文件或空目录：&lt;code>find /path/to/directory -empty&lt;/code>
+例如：&lt;code>find /home -empty&lt;/code>，在/home目录下查找为空的文件或目录。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查找符号链接文件：&lt;code>find /path/to/directory -type l&lt;/code>
+例如：&lt;code>find /usr/local -type l&lt;/code>，在/usr/local目录下查找所有符号链接文件。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>同时满足多个条件的查找：&lt;code>find /path/to/directory -name &amp;quot;filename&amp;quot; -type f -user username&lt;/code>
+例如：&lt;code>find /home -name &amp;quot;*.txt&amp;quot; -type f -user root&lt;/code>，在/home目录下查找文件名以.txt结尾、属于root用户的文件。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>排除指定目录的查找：&lt;code>find /path/to/directory -not -path &amp;quot;/path/to/exclude&amp;quot;&lt;/code>
+例如：&lt;code>find /var -not -path &amp;quot;/var/log&amp;quot;&lt;/code>，在/var目录下查找，但排除/var/log目录。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>按照文件修改时间排序结果：&lt;code>find /path/to/directory -type f -printf &amp;quot;%TY-%Tm-%Td %TH:%TM %p\n&amp;quot; | sort&lt;/code>
+例如：&lt;code>find /home -type f -printf &amp;quot;%TY-%Tm-%Td %TH:%TM %p\n&amp;quot; | sort&lt;/code>，在/home目录下查找文件，并按照修改时间排序。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>将查找结果输出到文件：&lt;code>find /path/to/directory -name &amp;quot;filename&amp;quot; &amp;gt; output.txt&lt;/code>
+例如：&lt;code>find /home -name &amp;quot;*.txt&amp;quot; &amp;gt; filelist.txt&lt;/code>，在/home目录下查找所有以.txt结尾的文件，并将结果保存到filelist.txt文件中。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在查找过程中执行其他命令：&lt;code>find /path/to/directory -name &amp;quot;filename&amp;quot; -exec command {} \;&lt;/code>
+例如：&lt;code>find /home -name &amp;quot;*.txt&amp;quot; -exec cp {} /tmp \;&lt;/code>，在/home目录下查找所有以.txt结尾的文件，并将它们复制到/tmp目录中。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>这只是find命令的一些常用使用方法，它还有更多选项和参数可以满足不同的搜索需求。可以通过&lt;code>man find&lt;/code>命令查看详细的使用说明。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>firewalld的使用方法
+Firewalld是CentOS中默认的防火墙管理工具，它提供了一种简单而灵活的方式来管理系统的防火墙规则。&lt;/p>
+&lt;ol>
+&lt;li>查看防火墙状态：&lt;code>sudo systemctl status firewalld&lt;/code>。&lt;/li>
+&lt;li>启动防火墙：&lt;code>sudo systemctl start firewalld&lt;/code>。&lt;/li>
+&lt;li>停止防火墙：&lt;code>sudo systemctl stop firewalld&lt;/code>。&lt;/li>
+&lt;li>重启防火墙：&lt;code>sudo systemctl restart firewalld&lt;/code>。&lt;/li>
+&lt;li>设置防火墙开机自启：&lt;code>sudo systemctl enable firewalld&lt;/code>。&lt;/li>
+&lt;li>关闭防火墙开机自启：&lt;code>sudo systemctl disable firewalld&lt;/code>。&lt;/li>
+&lt;/ol>
+&lt;p>添加规则：
+7. 添加一个允许的端口：&lt;code>sudo firewall-cmd --add-port=80/tcp --permanent&lt;/code>（80为端口号）。
+8. 删除已添加的端口：&lt;code>sudo firewall-cmd --remove-port=80/tcp --permanent&lt;/code>。
+9. 添加一个允许的服务：&lt;code>sudo firewall-cmd --add-service=http --permanent&lt;/code>（http为服务名）。
+10. 删除已添加的服务：&lt;code>sudo firewall-cmd --remove-service=http --permanent&lt;/code>。
+11. 添加一个允许的IP地址：&lt;code>sudo firewall-cmd --add-source=192.168.1.100 --permanent&lt;/code>。
+12. 删除已添加的IP地址：&lt;code>sudo firewall-cmd --remove-source=192.168.1.100 --permanent&lt;/code>。&lt;/p>
+&lt;p>查看规则：
+13. 查看当前生效的规则：&lt;code>sudo firewall-cmd --list-all&lt;/code>。
+14. 查看已打开的端口列表：&lt;code>sudo firewall-cmd --list-ports&lt;/code>。
+15. 查看已开放的服务列表：&lt;code>sudo firewall-cmd --list-services&lt;/code>。
+16. 查看已允许的源IP列表：&lt;code>sudo firewall-cmd --list-sources&lt;/code>。&lt;/p>
+&lt;p>其他：
+17. 临时开启防火墙：&lt;code>sudo systemctl is-active firewalld&lt;/code>。
+18. 在不重启防火墙的情况下重新加载规则：&lt;code>sudo firewall-cmd --reload&lt;/code>。
+19. 开放某个接口的所有端口：&lt;code>sudo firewall-cmd --zone=public --add-interface=eth0&lt;/code>（eth0为接口名）。
+20. 移除某个接口的所有端口：&lt;code>sudo firewall-cmd --zone=public --remove-interface=eth0&lt;/code>。&lt;/p>
+&lt;p>注：所有命令执行后，需要重启防火墙才能使规则生效：&lt;code>sudo systemctl restart firewalld&lt;/code>。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>groupmod的使用方法
+groupmod是一个用于修改用户组的命令。它可以用于修改用户组的名称、GID（组ID）以及用户组相关的信息。&lt;/p>
+&lt;p>以下是groupmod的一些常用使用方法和示例：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>修改用户组名称：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">groupmod -n new_group_name old_group_name
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>修改用户组的GID：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">groupmod -g new_gid group_name
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>修改用户组的描述信息：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">groupmod -o -n new_group_name -g new_gid -c &lt;span class="s2">&amp;#34;new_description&amp;#34;&lt;/span> group_name
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>将用户组的GID设置为非重复值：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">groupmod -o group_name
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>修改用户组的主用户名：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">groupmod -g new_gid -o -u new_user_name group_name
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>将用户组的GID设置为与已有用户组不冲突的最小值：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">groupmod --non-unique group_name
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>将用户加入新的用户组：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">groupmod -A user_name group_name
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>从用户组中删除指定用户：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">groupmod -R user_name group_name
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>在用户组中添加用户时，使用某个文件中的用户名列表：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">groupmod -A -x /path/to/usernames.txt group_name
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>将用户组的GID设置为不同于用户的UID：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">groupmod -g GID group_name
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>将用户从旧的用户组迁移到新的用户组：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">groupmod -G new_group_name user_name
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>禁用用户组的登录功能：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">groupmod -n --lock group_name
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>启用禁用的用户组的登录功能：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">groupmod -n --unlock group_name
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>将用户组从主用户组更改为辅助用户组：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">groupmod -g GID -o --from primary_group_name auxiliary_group_name
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>将用户组从辅助用户组更改为主用户组：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">groupmod -g GID --to auxiliary_group_name primary_group_name
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>修改用户组的最大密码时效（在多少天后必须更改密码）：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">groupmod -n --maxage max_days group_name
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>修改用户组的最小密码时效（密码必须在多少天后才能更改）：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">groupmod -n --minage min_days group_name
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>查看用户组的详细信息（包括GID和成员列表）：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">groupmod -n group_name
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>修改用户组的密码过期期限（在多少天后用户密码过期）：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">groupmod -n --expire max_days group_name
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>获取用户组的密码过期日期：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">groupmod -n -l group_name
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;/ol>
+&lt;p>请注意，上述示例中的命令仅为示意，实际使用时需要根据具体情况调整参数和选项。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>head的使用方法
+head命令用于显示文件的开头部分，默认显示文件的前10行。&lt;/p>
+&lt;p>常用的使用方法有：&lt;/p>
+&lt;ol>
+&lt;li>head file.txt：显示文件file.txt的前10行内容。&lt;/li>
+&lt;li>head -n 5 file.txt：显示文件file.txt的前5行内容。&lt;/li>
+&lt;li>head -c 20 file.txt：显示文件file.txt的前20个字符。&lt;/li>
+&lt;li>head -q file1.txt file2.txt：同时显示文件file1.txt和file2.txt的前10行内容，并在输出中添加文件名。&lt;/li>
+&lt;li>head -v file.txt：显示文件file.txt的前10行内容，并在输出中添加文件名。&lt;/li>
+&lt;li>head -n +20 file.txt：显示文件file.txt从第20行开始到文件末尾的内容。&lt;/li>
+&lt;li>head -f file.txt：实时显示文件file.txt的前10行内容，并在文件末尾追加的内容自动刷新。&lt;/li>
+&lt;li>head -1 file.txt：显示文件file.txt的第一行内容。&lt;/li>
+&lt;li>head -n -5 file.txt：显示文件file.txt去除最后5行后的内容。&lt;/li>
+&lt;li>head &amp;ndash;help：显示head命令的帮助信息。&lt;/li>
+&lt;/ol>
+&lt;p>常用的实例有：&lt;/p>
+&lt;ol>
+&lt;li>head /var/log/messages：显示系统日志文件的前10行内容。&lt;/li>
+&lt;li>head -n 20 /etc/passwd：显示系统用户信息文件的前20行内容。&lt;/li>
+&lt;li>head -c 100 /var/log/syslog：显示系统日志文件的前100个字节。&lt;/li>
+&lt;li>head -q /var/log/messages /var/log/syslog：同时显示系统日志文件和系统错误日志文件的前10行内容，并在输出中添加文件名。&lt;/li>
+&lt;li>head -v /etc/hosts：显示/etc/hosts文件的前10行内容，并在输出中添加文件名。&lt;/li>
+&lt;li>head -n +50 /var/log/auth.log：显示系统认证日志文件从第50行开始到文件末尾的内容。&lt;/li>
+&lt;li>tail -f /var/log/messages | head：实时显示系统日志文件的最新10行内容。&lt;/li>
+&lt;li>head -1 /etc/passwd：显示系统用户信息文件的第一行内容。&lt;/li>
+&lt;li>head -n -5 /var/log/syslog：显示系统日志文件去除最后5行后的内容。&lt;/li>
+&lt;/ol>
+&lt;p>以上是head命令的常用使用方法和实例，可以根据实际需求来选择相应的选项和参数。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>htop的使用方法
+htop是一个Linux系统的交互式进程查看工具，可以替代传统的top命令。以下是htop的常用使用方法和实例：&lt;/p>
+&lt;ol>
+&lt;li>查看进程列表：启动htop后，可以直接看到系统上所有的进程列表。&lt;/li>
+&lt;li>实时监控进程：htop能够以实时更新的方式显示系统中进程的信息，包括CPU使用率、内存使用量、进程状态等。&lt;/li>
+&lt;li>排序进程：可以按照CPU使用率、内存使用量、进程ID等字段对进程进行排序，并实时显示排序结果。&lt;/li>
+&lt;li>杀死进程：选中某个进程后，可以使用F9键杀死该进程。&lt;/li>
+&lt;li>刷新页面：按下F5键可以刷新页面，更新进程列表和显示信息。&lt;/li>
+&lt;li>查找进程：按下F3键可以进入查找模式，输入进程名或进程ID来查找相关进程。&lt;/li>
+&lt;li>设置进程显示：按下F2键可以进入设置面板，可以选择显示哪些列的信息，以及设置显示颜色等。&lt;/li>
+&lt;li>显示进程树：按下F4键可以显示进程树，可以清晰地看到进程之间的父子关系。&lt;/li>
+&lt;li>监控CPU使用率：在设置面板中选择&amp;quot;Setup meters&amp;quot;，可以设置显示各个CPU核心的使用率。&lt;/li>
+&lt;li>监控内存使用量：在设置面板中选择&amp;quot;Setup meters&amp;quot;，可以设置显示内存使用量及交换分区的使用情况。&lt;/li>
+&lt;li>监控网络流量：在设置面板中选择&amp;quot;Setup meters&amp;quot;，可以设置显示网络接口的入口流量和出口流量。&lt;/li>
+&lt;li>显示进程命令行参数：按下F2键进入设置面板，设置显示宽度，将Command列的宽度增大，可以完整显示命令行参数。&lt;/li>
+&lt;li>显示进程环境变量：按下F2键进入设置面板，设置显示宽度，将Environ列的宽度增大，可以显示进程的环境变量。&lt;/li>
+&lt;li>显示进程打开的文件：选中一个进程，按下F2键进入设置面板，在File列选择&amp;quot;Opened files&amp;quot;，可以显示进程打开的文件列表。&lt;/li>
+&lt;li>显示进程的线程：选中一个进程，按下F2键进入设置面板，在Thread列选择&amp;quot;Thread list&amp;quot;，可以显示进程的所有线程。&lt;/li>
+&lt;li>设置进程过滤器：按下F3键进入查找模式，按下F4键进入过滤模式，可以设置过滤器来显示特定条件下的进程。&lt;/li>
+&lt;li>显示进程的详细信息：选中一个进程，按下F1键可以显示进程的详细信息，包括进程启动时间、线程信息、进程状态等。&lt;/li>
+&lt;li>监控系统负载：在设置面板中选择&amp;quot;Setup screens&amp;quot;，可以设置显示系统负载的面板。&lt;/li>
+&lt;li>监控磁盘IO使用量：在设置面板中选择&amp;quot;Setup screens&amp;quot;，可以设置显示各个磁盘分区的IO使用情况。&lt;/li>
+&lt;li>显示进程的信号：选中一个进程，按下F9键可以发送信号给该进程。&lt;/li>
+&lt;/ol>
+&lt;p>在CentOS系统中安装htop的方法：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo yum install htop
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>ifconfig的使用方法
+ifconfig是一个在Linux系统中用于配置和显示网络接口信息的命令行工具。它可以用来查看和修改网卡的IP地址、子网掩码、广播地址、MAC地址等。&lt;/p>
+&lt;p>常用使用方法如下：&lt;/p>
+&lt;ol>
+&lt;li>查看当前所有网络接口的信息：ifconfig&lt;/li>
+&lt;li>查看指定网卡的信息：ifconfig eth0&lt;/li>
+&lt;li>启用指定网卡：ifconfig eth0 up&lt;/li>
+&lt;li>停用指定网卡：ifconfig eth0 down&lt;/li>
+&lt;li>分配静态IP地址：ifconfig eth0 192.168.1.100&lt;/li>
+&lt;li>分配子网掩码：ifconfig eth0 netmask 255.255.255.0&lt;/li>
+&lt;li>设置MAC地址：ifconfig eth0 hw ether 00:11:22:33:44:55&lt;/li>
+&lt;li>激活网卡的广播：ifconfig eth0 broadcast 192.168.1.255&lt;/li>
+&lt;li>配置MTU值：ifconfig eth0 mtu 1500&lt;/li>
+&lt;li>启用网络广播包过滤：ifconfig eth0 promisc&lt;/li>
+&lt;li>禁用网络广播包过滤：ifconfig eth0 -promisc&lt;/li>
+&lt;li>显示已经接收和发送的字节数据：ifconfig eth0 | grep &amp;lsquo;RX packets|TX packets&amp;rsquo;&lt;/li>
+&lt;li>查看网卡的链接状态：ifconfig eth0 | grep &amp;lsquo;Link&amp;rsquo;&lt;/li>
+&lt;li>设置网卡的多播地址：ifconfig eth0 multicast&lt;/li>
+&lt;li>获取网卡信息并将结果重定向到文件：ifconfig eth0 &amp;gt; output.txt&lt;/li>
+&lt;li>清除网卡配置：ifconfig eth0 0.0.0.0&lt;/li>
+&lt;li>重启网卡：ifconfig eth0 restart&lt;/li>
+&lt;li>配置IPv6地址：ifconfig eth0 inet6 add 2001:db8::1/64&lt;/li>
+&lt;li>显示所有循环接口的信息：ifconfig -a&lt;/li>
+&lt;li>查看帮助信息：ifconfig &amp;ndash;help&lt;/li>
+&lt;/ol>
+&lt;p>安装方法：在CentOS中，ifconfig工具默认已经安装好，无需单独安装。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>ifdown的使用方法
+ifdown命令用于关闭网络接口。以下是ifdown命令的常用使用方法：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>基本语法：ifdown [接口名]，例如：ifdown eth0
+这个命令会关闭指定的网络接口。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>关闭所有网络接口：ifdown -a
+该命令会关闭所有当前激活的网络接口，但不会禁用配置文件中定义的接口。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>禁用网络接口：ifdown &amp;ndash;exclude=[接口名]
+这个命令会关闭除指定网络接口外的所有网络接口。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>禁止自动启用网络接口：ifdown &amp;ndash;no-auto[接口名]
+这个命令将禁止在系统引导时自动启用指定的网络接口。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>使用正则表达式关闭多个接口：ifdown &amp;ndash;regex=[正则表达式]
+这个命令可以使用正则表达式来关闭匹配的多个网络接口。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>显示ifdown的帮助页面：ifdown &amp;ndash;help
+这个命令会显示ifdown命令的详细帮助信息，包括所有可用选项和参数的说明。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>强制关闭网络接口：ifdown &amp;ndash;force [接口名]
+这个命令会强制关闭指定的网络接口，即使有正在进行中的网络连接。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>指定配置文件路径：ifdown &amp;ndash;config=[配置文件路径] [接口名]
+这个命令可以使用自定义的配置文件来关闭指定的网络接口。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>模拟关闭操作：ifdown &amp;ndash;dry-run [接口名]
+这个命令会模拟关闭指定的网络接口，显示将执行的操作，但不会实际关闭接口。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>将网络接口从网络桥接设备中分离：ifdown [接口名] bridge [桥接设备]
+这个命令用于将指定的网络接口从指定的网络桥接设备中分离。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>重置网络接口配置：ifdown &amp;ndash;reset [接口名]
+这个命令会将指定网络接口的配置重置为默认值。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>关闭并重启网络接口：ifdown [接口名] &amp;amp;&amp;amp; ifup [接口名]
+这个命令会关闭指定的网络接口，然后立即重新启用该接口。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>请注意，ifdown命令需要root权限才能执行。在CentOS中，默认安装了ifdown工具，因此不需要额外进行安装。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>kill的使用方法&lt;/p>
+&lt;p>kill是一个常用的命令行工具，用于终止运行中的进程。它可以通过进程 ID (PID) 或进程名称来识别和终止进程。&lt;/p>
+&lt;p>在 CentOS 中，kill工具通常默认安装在系统中，无需额外安装。&lt;/p>
+&lt;p>下面是kill的常用使用方法：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>终止指定进程：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">kill&lt;/span> PID
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>其中，PID是要终止的进程的进程 ID。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>终止多个进程：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">kill&lt;/span> PID1 PID2 PID3
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>可以一次性终止多个进程。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>终止指定进程及其所有子进程：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">kill&lt;/span> -TERM PID
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>-TERM 是一个信号名称，表示正常终止进程。加上该选项，会终止指定进程及其所有子进程。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>终止多个进程及其所有子进程：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">kill&lt;/span> -TERM PID1 PID2 PID3
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>同样，可以一次性终止多个进程及其所有子进程。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>终止指定进程并强制终止：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">kill&lt;/span> -KILL PID
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>-KILL 是一个信号名称，表示强制终止进程。加上该选项，会立即终止指定进程，不管进程是否能够正常退出。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>终止指定进程并显示终止消息：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">kill&lt;/span> -INT PID
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>-INT 是一个信号名称，表示终止进程并显示终止消息。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>列出当前系统中的所有信号名称：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">kill&lt;/span> -l
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>-l 选项可以列出当前系统支持的所有信号名称，以及信号对应的编号。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>终止指定名称的进程：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">killall process_name
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>其中，process_name 是要终止的进程的名称。killall会终止系统中所有具有相同名称的进程。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>终止指定名称的进程并显示终止消息：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">killall -INT process_name
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>-INT 是一个信号名称，表示终止进程并显示终止消息。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>终止指定用户的所有进程：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">pkill -u username
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>其中，username 是要终止其所有进程的用户的用户名。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>终止指定用户的指定进程：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">pkill -u username process_name
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>终止指定用户的具有指定名称的进程。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>终止指定名称的进程并记录到日志文件：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">pkill -x -o -SIGTERM process_name &amp;gt;&amp;gt; /path/to/logfile
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>-x 是一个选项，表示匹配整个进程命令行而不仅仅是进程名称。
+-o 是一个选项，表示只终止最早启动的进程。
+-SIGTERM 是一个信号名称，表示正常终止进程。&lt;/p>
+&lt;blockquote>
+&lt;blockquote>
+&lt;p>/path/to/logfile 表示将终止信息追加到指定的日志文件。&lt;/p>
+&lt;/blockquote>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>终止指定命令的所有进程：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">pkill -f &lt;span class="nb">command&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>终止所有包含指定命令的进程。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>终止指定命令的指定进程：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">pkill -f -o -SIGTERM &lt;span class="nb">command&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>终止包含指定命令的最早启动的进程。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>终止指定进程组：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">pkill -g pgid
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>其中，pgid 是要终止的进程组的进程组 ID。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>终止指定会话的所有进程：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">pkill -s sid
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>其中，sid 是要终止的会话的会话 ID。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>终止指定通信组的进程：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">pkill -G gid
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>其中，gid 是要终止的通信组的组 ID。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>向指定进程发送指定信号：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">kill&lt;/span> -s signal_name PID
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>可以通过 -s 选项指定信号名称，向指定进程发送指定信号。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>向指定进程发送信号0：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">kill&lt;/span> -0 PID
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>-0 选项表示不真正终止进程，只是检查进程是否存在。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>向指定进程发送指定信号并保存终止码：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">kill&lt;/span> -signal_number PID
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">echo&lt;/span> &lt;span class="nv">$?&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>-signal_number 选项表示向指定进程发送指定信号，并将终止码保存到 $? 变量中。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>这些是kill工具的常用使用方法和实例。可以根据需要选择合适的方法来终止进程。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>mount的使用方法
+mount是一个用于挂载文件系统的命令行工具。常用的用法有以下几种：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>挂载文件系统：mount DEVICE DIRECTORY
+例如：mount /dev/sda1 /mnt
+这条命令将/dev/sda1分区挂载到/mnt目录上。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>挂载网络文件系统：mount -t TYPE -o OPTIONS SOURCE DIRECTORY
+例如：mount -t nfs -o nolock 192.168.0.100:/path /mnt
+这条命令将192.168.0.100主机上的/path目录挂载到/mnt目录上，使用NFS协议，禁用文件锁定。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看已挂载的文件系统：mount
+这条命令将列出当前已挂载文件系统的详细信息。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>卸载文件系统：umount DEVICE/DIRECTORY
+例如：umount /dev/sda1
+这条命令将卸载/dev/sda1分区。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>强制卸载文件系统：umount -f DEVICE/DIRECTORY
+例如：umount -f /mnt
+这条命令将强制卸载/mnt目录上的文件系统，即使它仍然被使用。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>挂载只读文件系统：mount -o ro DEVICE DIRECTORY
+例如：mount -o ro /dev/sda1 /mnt
+这条命令将以只读模式挂载/dev/sda1分区到/mnt目录上。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>挂载可读写文件系统：mount -o rw DEVICE DIRECTORY
+例如：mount -o rw /dev/sda1 /mnt
+这条命令将以可读写模式挂载/dev/sda1分区到/mnt目录上。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>自动挂载文件系统：将文件系统添加到/etc/fstab配置文件中，系统启动时会自动挂载。
+例如：在/etc/fstab中添加一行：/dev/sda1 /mnt ext4 defaults 0 0
+这样在系统启动时会自动挂载/dev/sda1分区到/mnt目录上，使用ext4文件系统。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>指定文件系统类型：mount -t TYPE DEVICE DIRECTORY
+例如：mount -t ext4 /dev/sda1 /mnt
+这条命令将以ext4文件系统类型挂载/dev/sda1分区到/mnt目录上。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>挂载镜像文件：mount -o loop IMAGE_FILE DIRECTORY
+例如：mount -o loop /path/to/image.img /mnt
+这条命令将将镜像文件/path/to/image.img挂载到/mnt目录上。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>这些只是mount命令的一些常见用法，具体的使用方法还可以通过&amp;quot;man mount&amp;quot;命令查看更多详细信息。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>mv的使用方法
+mv是Linux系统中的一个命令，用于移动或重命名文件和目录。它的基本使用方法如下：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>移动文件或目录：&lt;code>mv source_file destination&lt;/code>
+例如：&lt;code>mv file.txt /home/user/&lt;/code> 将file.txt文件移动到/home/user/目录下。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>重命名文件或目录：&lt;code>mv old_name new_name&lt;/code>
+例如：&lt;code>mv file.txt new_file.txt&lt;/code> 将file.txt文件重命名为new_file.txt。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>强制移动或重命名：&lt;code>mv -f source destination&lt;/code>
+例如：&lt;code>mv -f file.txt /home/user/&lt;/code> 强制将file.txt文件移动到/home/user/目录下，并覆盖同名文件。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>移动多个文件：&lt;code>mv file1 file2 file3 directory&lt;/code>
+例如：&lt;code>mv file1 file2 file3 /home/user/&lt;/code> 将file1、file2和file3三个文件移动到/home/user/目录下。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>移动所有文件：&lt;code>mv * directory&lt;/code>
+例如：&lt;code>mv * /home/user/&lt;/code> 将当前目录下的所有文件移动到/home/user/目录下。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>移动目录及其内容：&lt;code>mv directory1 directory2&lt;/code>
+例如：&lt;code>mv dir1 /home/user/&lt;/code> 将dir1目录移动到/home/user/目录下，保持目录结构不变。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>将文件移动到上一级目录：&lt;code>mv file ../&lt;/code>
+例如：&lt;code>mv file.txt ../&lt;/code> 将file.txt文件移动到当前目录的上一级目录。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>移动文件时保留前导路径：&lt;code>mv --parents source_file destination&lt;/code>
+例如：&lt;code>mv --parents dir1/dir2/file.txt /home/user/&lt;/code> 将file.txt文件移动到/home/user/目录下，并保留dir1/dir2的前导路径。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>移动文件并给目标文件指定权限：&lt;code>mv -p source_file destination&lt;/code>
+例如：&lt;code>mv -p file.txt /home/user/&lt;/code> 将file.txt文件移动到/home/user/目录下，并保留原文件的权限。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>显示移动的过程信息：&lt;code>mv -v source_file destination&lt;/code>
+例如：&lt;code>mv -v file.txt /home/user/&lt;/code> 显示将file.txt文件移动到/home/user/目录下的过程信息。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>将符号链接本身移动到目标位置：&lt;code>mv -T source destination&lt;/code>
+例如：&lt;code>mv -T link /home/user/new_link&lt;/code> 将link符号链接本身移动到/home/user/new_link。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>移动文件时询问是否覆盖：&lt;code>mv -i source_file destination&lt;/code>
+例如：&lt;code>mv -i file.txt /home/user/&lt;/code> 在移动file.txt文件到/home/user/目录下之前询问是否覆盖同名文件。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>移动时忽略隐藏文件：&lt;code>mv !(-.*) destination&lt;/code>
+例如：&lt;code>mv !(-.*) /home/user/&lt;/code> 移动当前目录下的所有非隐藏文件到/home/user/目录下。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>交互式移动文件：&lt;code>mv -u source_file destination&lt;/code>
+例如：&lt;code>mv -u file.txt /home/user/&lt;/code> 移动file.txt文件到/home/user/目录下，如果目标位置已存在同名文件但更新时间比源文件旧则覆盖。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>移动目录并保留目录的访问时间：&lt;code>mv -u --preserve=ctime source_dir destination&lt;/code>
+例如：&lt;code>mv -u --preserve=ctime dir1 /home/user/&lt;/code> 移动dir1目录到/home/user/目录下，并保留目录的访问时间不变。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>这些是mv命令的常用使用方法，通过它可以方便地在Linux系统中移动和重命名文件和目录。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>nano的使用方法
+Nano是一个简单易用的文本编辑器，常用于在终端中编辑文本文件。&lt;/p>
+&lt;p>常用使用方法：&lt;/p>
+&lt;ol>
+&lt;li>打开文件：在终端中输入&lt;code>nano 文件路径&lt;/code>来打开指定文件。例如：&lt;code>nano /path/to/file.txt&lt;/code>&lt;/li>
+&lt;li>保存文件：按Ctrl + O组合键，然后按Enter键保存修改。&lt;/li>
+&lt;li>退出编辑器：按Ctrl + X组合键，然后按Y键确认退出。&lt;/li>
+&lt;li>移动光标：使用方向键移动光标位置。也可以使用Ctrl + F（向右移动一个字符）、Ctrl + B（向左移动一个字符）、Ctrl + P（向上移动一行）、Ctrl + N（向下移动一行）等快捷键进行移动。&lt;/li>
+&lt;li>复制、剪切和粘贴：使用Ctrl + K剪切一行或选定的文本，Ctrl + U粘贴剪切板中的文本，Ctrl + L复制一行或选定的文本。&lt;/li>
+&lt;li>搜索和替换：按Ctrl + W组合键进入搜索模式，输入关键词进行搜索，按Ctrl + \组合键进入替换模式进行替换操作。&lt;/li>
+&lt;li>撤销和重做：按Ctrl + G组合键显示帮助菜单，其中包含了撤销和重做的操作键。&lt;/li>
+&lt;li>编辑多个文件：在启动nano编辑器时指定多个文件路径作为参数，可以同时编辑多个文件。例如：&lt;code>nano file1.txt file2.txt&lt;/code>&lt;/li>
+&lt;li>显示行号：使用Ctrl + C组合键开启或关闭行号显示。&lt;/li>
+&lt;li>块缩进：使用Ctrl + ]组合键向右缩进选定的文本块，Ctrl + [组合键向左缩进。&lt;/li>
+&lt;li>快速跳转：使用Ctrl + _组合键可以跳到指定行号。&lt;/li>
+&lt;/ol>
+&lt;p>常用实例：&lt;/p>
+&lt;ol>
+&lt;li>编辑一个新的文本文件：&lt;code>nano newfile.txt&lt;/code>&lt;/li>
+&lt;li>打开一个已存在的文本文件：&lt;code>nano existingfile.txt&lt;/code>&lt;/li>
+&lt;li>在文件中查找指定关键词：按Ctrl + W组合键，输入关键词，按Enter键开始搜索。&lt;/li>
+&lt;li>替换文件中的文本内容：按Ctrl + \组合键，输入要替换的文本和替换后的内容，然后按Enter键替换。&lt;/li>
+&lt;li>复制和粘贴文本：按Ctrl + K剪切一行或选定的文本，然后按Ctrl + U粘贴到光标位置。&lt;/li>
+&lt;li>移动光标到文件的第10行：按Ctrl + C打开行号显示，然后输入&lt;code>G&lt;/code>跳到最后一行，再按&lt;code>10&lt;/code>跳到第10行。&lt;/li>
+&lt;li>撤销和重做操作：按Ctrl + G打开帮助菜单，按&lt;code>U&lt;/code>执行撤销操作，按&lt;code>E&lt;/code>执行重做操作。&lt;/li>
+&lt;li>编辑多个文件：&lt;code>nano file1.txt file2.txt&lt;/code>同时打开并编辑file1.txt和file2.txt。&lt;/li>
+&lt;/ol>
+&lt;p>这些是一些常用的使用方法和实例，希望能帮到你。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>nc的使用方法
+nc (netcat) 是一个网络工具，常用于TCP/IP网络中的数据传输和端口扫描。它提供了许多功能，以下是nc的常用使用方法和实例：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>基本用法：&lt;/p>
+&lt;ul>
+&lt;li>在指定端口上监听连接：&lt;code>nc -l &amp;lt;port&amp;gt;&lt;/code>&lt;/li>
+&lt;li>连接到指定主机和端口：&lt;code>nc &amp;lt;host&amp;gt; &amp;lt;port&amp;gt;&lt;/code>&lt;/li>
+&lt;li>在连接建立后启动交互式会话：&lt;code>nc -lvp &amp;lt;port&amp;gt;&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>文件传输相关：&lt;/p>
+&lt;ul>
+&lt;li>发送文件：&lt;code>nc &amp;lt;host&amp;gt; &amp;lt;port&amp;gt; &amp;lt; file&lt;/code>&lt;/li>
+&lt;li>接收文件：&lt;code>nc -l &amp;lt;port&amp;gt; &amp;gt; file&lt;/code>&lt;/li>
+&lt;li>传输文件到另一个主机：&lt;code>nc -l &amp;lt;port&amp;gt; | nc &amp;lt;host&amp;gt; &amp;lt;port&amp;gt;&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>端口扫描相关：&lt;/p>
+&lt;ul>
+&lt;li>扫描单个端口：&lt;code>nc -z &amp;lt;host&amp;gt; &amp;lt;port&amp;gt;&lt;/code>&lt;/li>
+&lt;li>扫描一段端口范围：&lt;code>nc -zv &amp;lt;host&amp;gt; &amp;lt;start-port&amp;gt;-&amp;lt;end-port&amp;gt;&lt;/code>&lt;/li>
+&lt;li>扫描某个主机的所有常用端口：&lt;code>nc -zv &amp;lt;host&amp;gt; 1-1024&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>网络调试和测试：&lt;/p>
+&lt;ul>
+&lt;li>监听UDP连接：&lt;code>nc -lu &amp;lt;port&amp;gt;&lt;/code>&lt;/li>
+&lt;li>通过TCP发送数据：&lt;code>echo -n &amp;quot;data&amp;quot; | nc &amp;lt;host&amp;gt; &amp;lt;port&amp;gt;&lt;/code>&lt;/li>
+&lt;li>通过UDP发送数据：&lt;code>echo -n &amp;quot;data&amp;quot; | nc -u &amp;lt;host&amp;gt; &amp;lt;port&amp;gt;&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>其他常用命令：&lt;/p>
+&lt;ul>
+&lt;li>执行远程命令并返回结果：&lt;code>echo -n &amp;quot;command&amp;quot; | nc &amp;lt;host&amp;gt; &amp;lt;port&amp;gt;&lt;/code>&lt;/li>
+&lt;li>远程登录到主机：&lt;code>nc &amp;lt;host&amp;gt; &amp;lt;port&amp;gt;&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>安装方法（基于CentOS）：
+可以使用以下命令安装nc工具：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">yum install nc
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;/ol>
+&lt;p>注意：nc工具在网络安全领域中也被广泛用于网络攻击和渗透测试，因此使用时需要遵守法律法规，不得进行非法活动。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>ncdu的使用方法
+ncdu是一款用于查看磁盘空间使用情况的工具。它可以显示出文件和目录所占用的空间大小，并且可以帮助用户快速找到磁盘上占用空间较大的文件或目录。&lt;/p>
+&lt;p>使用方法如下：&lt;/p>
+&lt;ol>
+&lt;li>在CentOS中安装ncdu：在终端中运行命令 &lt;code>sudo yum install ncdu&lt;/code> 进行安装。&lt;/li>
+&lt;/ol>
+&lt;p>常用实例：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>进入指定目录并运行ncdu命令：在终端中使用 &lt;code>cd&lt;/code> 命令进入要查看的目录，然后运行 &lt;code>ncdu&lt;/code> 命令即可。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看整个磁盘的空间使用情况：在终端中使用 &lt;code>ncdu /&lt;/code> 命令来查看整个磁盘的空间使用情况。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>排序并只显示最大的几个文件或目录：在终端中使用 &lt;code>ncdu -x&lt;/code> 命令可以显示每个目录的总大小，并按大小排序。使用 &lt;code>ncdu -x -q -n 10&lt;/code> 命令可以只显示最大的10个文件或目录。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>以图形界面显示空间使用情况：在终端中使用 &lt;code>ncdu --color=dark -rr -x&lt;/code> 命令可以以图形界面的方式显示空间使用情况。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>忽略指定的目录或文件：在终端中使用 &lt;code>ncdu --exclude &amp;lt;dir/file&amp;gt;&lt;/code> 命令可以忽略指定的目录或文件。例如： &lt;code>ncdu --exclude /tmp&lt;/code> 将会忽略/tmp目录的空间使用情况。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>导出报告到文件：在终端中使用 &lt;code>ncdu -o &amp;lt;output_file&amp;gt;&lt;/code> 命令可以将空间使用情况导出到指定的文件中。例如： &lt;code>ncdu -o report.txt&lt;/code> 将会将空间使用情况导出到report.txt文件中。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看特定目录或文件的空间使用情况：在终端中使用 &lt;code>ncdu &amp;lt;directory/file&amp;gt;&lt;/code> 命令可以查看特定目录或文件的空间使用情况。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>显示空间使用情况的百分比：在终端中使用 &lt;code>ncdu -P&lt;/code> 命令可以显示空间使用情况的百分比。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>运行ncdu后使用键盘操作导航：在ncdu界面中可以使用上下方向键来移动光标，使用左右方向键来展开或折叠目录，使用Enter键进入目录，使用Backspace键返回上级目录，使用q键退出ncdu。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>指定特定的目录树的深度：在终端中使用 &lt;code>ncdu --depth &amp;lt;depth&amp;gt;&lt;/code> 命令可以指定要显示的目录树的深度。例如： &lt;code>ncdu --depth 2&lt;/code> 将会只显示两级目录。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>以上是部分常用的ncdu的使用方法和实例，希望对您有帮助。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>nethogs的使用方法
+nethogs是一个Linux下用于监视每个进程的网络流量的工具。安装nethogs很简单，只需在CentOS中运行以下命令：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo yum install nethogs
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>安装完成后，以下是nethogs的常用使用方法：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>启动nethogs：在终端中输入以下命令即可启动nethogs：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo nethogs
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>监视指定网络接口：可以通过在启动nethogs时添加接口名称来指定要监视的网络接口，例如：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo nethogs eth0
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>显示流量数据：nethogs默认以实时模式显示网络流量。它会显示每个进程的发送和接收数据量，并按照流量从高到低进行排序。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>打开文件的监视：nethogs支持监视正在进行的文件传输，可以通过在启动nethogs时添加文件名来指定要监视的文件，例如：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo nethogs /path/to/file
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>显示DNS域名：nethogs默认只显示进程ID，但可以通过按&amp;rsquo; M &amp;lsquo;键来切换到显示进程的DNS域名。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>按进程ID过滤：可以通过在启动nethogs时添加进程ID来只显示特定进程的网络流量，例如：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo nethogs -p 1234
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>排除本地流量：默认情况下，nethogs监视所有流量，包括本地回环流量。可以通过在启动nethogs时添加&amp;rsquo;-v&amp;rsquo;参数来排除本地流量，例如：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo nethogs -v 0
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>指定刷新时间间隔：默认情况下，nethogs的刷新间隔为1秒。可以通过在启动nethogs时添加&amp;rsquo;-d&amp;rsquo;参数来指定刷新的时间间隔（单位为秒），例如：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo nethogs -d 5
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>帮助信息：可以通过在终端中输入以下命令来查看nethogs的帮助信息：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo nethogs -h
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>退出nethogs：在nethogs运行期间，按下&amp;rsquo;q&amp;rsquo;键即可退出。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>这些是nethogs的一些常用使用方法，可以帮助你监视和分析网络流量。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>ping的使用方法&lt;/p>
+&lt;ol>
+&lt;li>基本的ping命令使用方法：在命令行窗口中输入&amp;quot;ping &amp;lt;目标IP地址或域名&amp;gt;&amp;quot;，例如&amp;quot;ping 192.168.0.1&amp;quot;或&amp;quot;ping &lt;a class="link" href="https://www.google.com" target="_blank" rel="noopener"
+>www.google.com&lt;/a>&amp;quot;。&lt;/li>
+&lt;li>使用ping来检查网络连接是否正常：通过ping目标IP地址或域名，如果成功返回回复，表示网络连接正常；如果返回请求超时或无法到达目标主机，则表示网络有问题。&lt;/li>
+&lt;li>使用ping来测试网络延迟：可以使用ping命令来测试从本地主机到目标主机的往返时间（Round-Trip Time，简称RTT），通过观察RTT的时间来评估网络延迟情况。&lt;/li>
+&lt;li>使用ping来追踪数据包经过的路由：通过在ping命令中添加&amp;quot;-t&amp;quot;选项，可以持续追踪数据包经过的路由路径，以及每个路由节点的响应时间。&lt;/li>
+&lt;li>使用ping来指定数据包的大小和数量：可以使用&amp;quot;-l&amp;quot;选项来指定发送的数据包大小，和&amp;quot;-n&amp;quot;选项来指定发送的数据包数量。&lt;/li>
+&lt;li>使用ping来测试TCP/IP端口的可达性：可以使用&amp;quot;-p&amp;quot;选项来指定测试的端口号，例如&amp;quot;ping -p 80 &lt;a class="link" href="https://www.google.com" target="_blank" rel="noopener"
+>www.google.com&lt;/a>&amp;quot;，表示测试与目标主机的80端口是否可达。&lt;/li>
+&lt;li>使用ping来监测服务器的稳定性：可以使用ping命令配合其他工具（如脚本）来实现周期性地对服务器进行ping测试，并根据测试结果触发相应的操作或报警。&lt;/li>
+&lt;li>使用ping来排查网络问题：当网络出现问题时，可以使用ping命令依次ping网络上的各个节点，以确定网络中出现问题的节点，从而进行相应的故障排查和修复。&lt;/li>
+&lt;li>使用ping来测试多个目标主机的可达性：可以使用ping命令在一个命令中同时指定多个目标主机，例如&amp;quot;ping -a &lt;a class="link" href="https://www.google.com" target="_blank" rel="noopener"
+>www.google.com&lt;/a> &lt;a class="link" href="https://www.facebook.com" target="_blank" rel="noopener"
+>www.facebook.com&lt;/a>&amp;quot;，可以测试多个网站的可达性。&lt;/li>
+&lt;li>使用ping来测试网络的稳定性和吞吐量：可以使用ping命令连续发送大量的数据包（使用&amp;quot;-f&amp;quot;选项），来测试网络的稳定性和吞吐量，观察丢包率和延迟情况。&lt;/li>
+&lt;li>使用ping来测试本地网络设备的连通性：可以使用ping命令向本地网络设备（如路由器、交换机等）发送ping请求，以测试本地网络设备的连通性和响应速度。&lt;/li>
+&lt;li>使用ping来测试指定网络接口的连通性：可以使用&amp;quot;-S&amp;quot;选项来指定发送ping请求的源IP地址，以测试指定网络接口的连通性。&lt;/li>
+&lt;li>使用ping来测试指定网络接口的带宽：可以使用&amp;quot;-b&amp;quot;选项来指定ping请求的带宽大小（带宽越大，发送请求的速度越快），从而测试指定网络接口的带宽。&lt;/li>
+&lt;li>使用ping来测试不同网络类型的连通性：可以使用ping命令在不同的网络类型（如IPv4和IPv6）之间进行互通性测试，以确保网络的互通性。&lt;/li>
+&lt;li>使用ping来测试UDP和ICMP数据包的传输情况：可以使用&amp;quot;-u&amp;quot;选项来发送UDP数据包，以测试UDP数据包的传输情况；使用&amp;quot;-i&amp;quot;选项来发送ICMP数据包，以测试ICMP数据包的传输情况。&lt;/li>
+&lt;li>使用ping来测试网络服务的可用性：可以使用ping命令测试指定网络服务的可用性，例如&amp;quot;ping smtp.gmail.com&amp;quot;来测试Gmail的SMTP服务是否正常。&lt;/li>
+&lt;li>使用ping来测试网络的负载均衡：可以使用ping命令在多个负载均衡设备（如负载均衡器、集群等）之间进行互通性测试，以确保负载均衡的正常工作。&lt;/li>
+&lt;li>使用ping来进行网络性能测试：可以使用ping命令在不同的时间段发送ping请求，观察响应时间和丢包率的变化，以评估网络的性能情况。&lt;/li>
+&lt;li>使用ping来测试网络防火墙的配置：可以使用ping命令尝试ping目标主机，以测试防火墙对ping请求的处理情况，从而检查防火墙的配置是否正确。&lt;/li>
+&lt;li>使用ping来进行网络监测和故障排除：可以使用ping命令结合其他网络监测工具（如Wireshark、Nmap等）来对网络进行监测和故障排除。&lt;/li>
+&lt;/ol></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>ps的使用方法
+ps命令用于查看当前系统中正在运行的进程。下面是ps命令的常用使用方法：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>查看所有进程：ps aux&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看指定用户的进程：ps -u username&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看指定进程的详细信息：ps -p pid&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>以树形结构显示进程：ps f&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>只显示当前终端运行的进程：ps -t tty&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看进程及其子进程：ps -eLf&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看进程的CPU使用情况：ps -eo pid,ppid,cmd,%cpu &amp;ndash;sort=-%cpu&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看进程的内存使用情况：ps -eo pid,ppid,cmd,%mem &amp;ndash;sort=-%mem&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看进程的线程数：ps -T pid&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>实时监控进程的CPU使用情况：ps -p pid -o %cpu&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>实时监控进程的内存使用情况：ps -p pid -o %mem&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看进程的启动时间：ps -eo pid,lstart,cmd&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看进程的状态：ps -eo pid,stat,cmd&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看进程的打开文件数：ps -o pid,comm,nlwp,nfiles&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看进程的网络连接情况：ps -p pid -o pid,comm,net&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看进程的文件描述符信息：ps -p pid -o pid,comm,fds&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看进程的CPU时间使用情况：ps -eo pid,comm,etime&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看进程的用户和组信息：ps -eo pid,uid,gid,comm&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看常驻内存的进程：ps -eo pid,cmd,rss,vsz,args &amp;ndash;sort=-rss | head -n 10&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看指定进程的父进程ID：ps -o ppid= -p pid&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>请注意，上述命令中的pid指的是进程的ID，username指的是用户名，tty指的是终端设备。根据需要替换对应的值来使用这些命令。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>rm的使用方法
+rm是Linux和Unix系统中常用的命令之一，用于删除文件和目录。&lt;/p>
+&lt;p>使用方法：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>删除文件：&lt;code>rm 文件名&lt;/code>
+示例：&lt;code>rm text.txt&lt;/code> 将删除名为text.txt的文件。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>删除目录：&lt;code>rm -r 目录名&lt;/code>
+示例：&lt;code>rm -r folder&lt;/code> 将删除名为folder的目录及其内部所有文件和子目录。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>删除多个文件或目录：&lt;code>rm 文件1 文件2 目录1 目录2&lt;/code>
+示例：&lt;code>rm file1.txt file2.txt dir1 dir2&lt;/code> 将删除文件file1.txt、file2.txt以及目录dir1和dir2。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>删除文件时不询问确认：&lt;code>rm -f 文件名&lt;/code>
+示例：&lt;code>rm -f text.txt&lt;/code> 将强制删除名为text.txt的文件，而无需确认。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>删除文件时显示删除信息：&lt;code>rm -v 文件名&lt;/code>
+示例：&lt;code>rm -v text.txt&lt;/code> 将删除名为text.txt的文件，并显示删除信息。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>删除目录及内容时不询问确认：&lt;code>rm -rf 目录名&lt;/code>
+示例：&lt;code>rm -rf folder&lt;/code> 将强制删除名为folder的目录及其内部所有文件和子目录，而无需确认。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>删除目录及其内容时显示删除信息：&lt;code>rm -rv 目录名&lt;/code>
+示例：&lt;code>rm -rv folder&lt;/code> 将删除名为folder的目录及其内部所有文件和子目录，并显示删除信息。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>删除当前目录下所有文件和子目录：&lt;code>rm -rf *&lt;/code>
+示例：&lt;code>rm -rf *&lt;/code> 将删除当前目录下的所有文件和子目录。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>删除指定类型的文件：&lt;code>rm *.扩展名&lt;/code>
+示例：&lt;code>rm *.txt&lt;/code> 将删除当前目录下所有扩展名为.txt的文件。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>删除文件并备份到回收站：&lt;code>rm -i 文件名&lt;/code>
+示例：&lt;code>rm -i text.txt&lt;/code> 将删除名为text.txt的文件，并将其备份到回收站，需要确认删除操作。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>删除目录并备份到回收站：&lt;code>rm -ir 目录名&lt;/code>
+示例：&lt;code>rm -ir folder&lt;/code> 将删除名为folder的目录及其内部所有文件和子目录，并将其备份到回收站，需要确认删除操作。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在删除前显示确认信息：&lt;code>rm -i 文件名&lt;/code>
+示例：&lt;code>rm -i text.txt&lt;/code> 将删除名为text.txt的文件，删除前会询问确认。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>这些是rm命令的常用使用方法，通过这些方法，你可以有效地删除文件和目录。请注意，使用rm命令要格外小心，因为删除操作是不可逆的，所以在使用该命令时务必慎重。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>route的使用方法
+route是Linux中常用的网络路由工具，用于管理和操作系统内核中的IP路由表。&lt;/p>
+&lt;p>常用的route命令选项包括：&lt;/p>
+&lt;ul>
+&lt;li>add：添加一个新的路由条目到路由表中。&lt;/li>
+&lt;li>del：从路由表中删除一个路由条目。&lt;/li>
+&lt;li>show：显示当前系统的路由表信息。&lt;/li>
+&lt;li>flush：清空路由表。&lt;/li>
+&lt;/ul>
+&lt;p>常用的实例有：&lt;/p>
+&lt;ol>
+&lt;li>添加一个默认网关：
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">route add default gw 192.168.1.1
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>添加一个目标网络的路由：
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">route add -net 192.168.2.0/24 gw 192.168.1.2
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>删除一个路由条目：
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">route del default gw 192.168.1.1
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>显示当前系统的路由表信息：
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">route -n
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>清空路由表：
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">route flush
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;/ol></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>screen的使用方法
+Screen是一个用于管理多个终端会话的工具，可以使用户在一个终端窗口中同时运行多个终端会话。&lt;/p>
+&lt;p>常用使用方法如下：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>启动一个新的Screen会话：在终端中输入&lt;code>screen&lt;/code>，按下回车键即可启动一个新的会话。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在会话中创建新的窗口：按下Ctrl + A，然后按下C键即可在当前会话中创建一个新窗口。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>切换窗口：按下Ctrl + A，然后按下N键或是P键可以在窗口之间进行切换。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>关闭当前窗口：在窗口中输入&lt;code>exit&lt;/code>命令或按下Ctrl + D可以关闭当前的窗口。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>分割窗口：按下Ctrl + A，然后按下S键可以将当前窗口水平分割为两个窗口，按下Ctrl + A，然后按下|键可以将当前窗口垂直分割为两个窗口。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>切换分割窗口：按下Ctrl + A，然后按下Tab键可以在分割的窗口之间进行切换。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>调整分割窗口大小：按下Ctrl + A，然后按下Ctrl + 方向键可以调整分割窗口的大小。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>恢复之前的会话：在终端中输入&lt;code>screen -R&lt;/code>命令，可以恢复之前断开或意外关闭的会话。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看已存在的会话：在终端中输入&lt;code>screen -ls&lt;/code>命令，可以查看当前已存在的会话列表。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>连接已存在的会话：在终端中输入&lt;code>screen -r &amp;lt;会话ID&amp;gt;&lt;/code>命令，可以连接到已存在的会话。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在会话中运行后台命令：按下Ctrl + A，然后按下d键即可将当前会话推到后台运行。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在会话中运行命令时使用日志：在终端中输入&lt;code>screen -L&lt;/code>命令，会话中的所有输出都会被记录到日志文件中。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看当前会话中的窗口列表：按下Ctrl + A，然后按下&amp;quot;键可以查看当前会话中的窗口列表。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>重命名当前窗口：按下Ctrl + A，然后按下A键，然后输入新的窗口名称，按下回车键即可重命名当前窗口。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>使用Ctrl键进行复制：按下Ctrl + A，然后按下[键进入复制模式，在复制模式下使用方向键进行选择文本，按下回车键复制已选择的文本。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在会话中发送命令到所有窗口：按下Ctrl + A，然后按下:键，然后输入&lt;code>at \* command&lt;/code>命令，按下回车键即可将命令发送到所有窗口。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在会话中发送命令到指定窗口：按下Ctrl + A，然后按下:键，然后输入&lt;code>at &amp;lt;窗口ID&amp;gt; command&lt;/code>命令，按下回车键即可将命令发送到指定窗口。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在会话中设置会话名称：按下Ctrl + A，然后按下:键，然后输入&lt;code>sessionname &amp;lt;新会话名称&amp;gt;&lt;/code>命令，按下回车键即可设置会话的名称。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在会话中进行跨窗口发送输入：按下Ctrl + A，然后按下:键，然后输入&lt;code>at &amp;lt;窗口ID&amp;gt; stuff &amp;lt;输入内容&amp;gt;&lt;/code>命令，按下回车键即可将输入内容发送到指定窗口。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在会话中关闭其他窗口：按下Ctrl + A，然后按下:键，然后输入&lt;code>kill&lt;/code>命令，按下回车键即可关闭除当前窗口外的其他窗口。&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>sed的使用方法
+sed是一个在Linux中非常常用的文本处理工具，可以用于对文本文件进行编辑、替换、删除等操作。下面是sed的一些常用使用方法和实例：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>替换文本中的字符串：
+&lt;code>sed 's/old/new/' file.txt&lt;/code>：将文本文件file.txt中的所有old替换为new。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>替换文本中的字符串（只替换第一次出现的）：
+&lt;code>sed 's/old/new/1' file.txt&lt;/code>：只替换文本文件file.txt中第一次出现的old。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>替换文本中的字符串（仅替换匹配到的行）：
+&lt;code>sed '/pattern/s/old/new/' file.txt&lt;/code>：只替换匹配到pattern的行中的old。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>替换文本中的字符串（全局替换）：
+&lt;code>sed 's/old/new/g' file.txt&lt;/code>：将文本文件file.txt中的所有old替换为new。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>删除匹配到的行：
+&lt;code>sed '/pattern/d' file.txt&lt;/code>：删除文本文件file.txt中匹配到pattern的行。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>删除空白行：
+&lt;code>sed '/^\s*$/d' file.txt&lt;/code>：删除文本文件file.txt中的空白行。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>插入新行：
+&lt;code>sed '3i\new line' file.txt&lt;/code>：在第三行之前插入一行new line。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在匹配到的行前插入新行：
+&lt;code>sed '/pattern/i\new line' file.txt&lt;/code>：在匹配到pattern的行前插入一行new line。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在匹配到的行后插入新行：
+&lt;code>sed '/pattern/a\new line' file.txt&lt;/code>：在匹配到pattern的行后插入一行new line。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>打印匹配到的行：
+&lt;code>sed -n '/pattern/p' file.txt&lt;/code>：只打印出匹配到pattern的行。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>打印指定行范围内的行：
+&lt;code>sed -n '5,10p' file.txt&lt;/code>：打印出文件file.txt的第5到第10行。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>打印指定行号的行：
+&lt;code>sed -n '5p' file.txt&lt;/code>：只打印出文件file.txt的第5行。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>使用正则表达式进行匹配：
+&lt;code>sed -n '/^pattern/p' file.txt&lt;/code>：只打印出以pattern开头的行。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>将输出结果保存到新文件中：
+&lt;code>sed 's/old/new/' file.txt &amp;gt; newfile.txt&lt;/code>：将替换结果保存到新文件newfile.txt。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>修改原文件（需要备份）：
+&lt;code>sed -i.bak 's/old/new/' file.txt&lt;/code>：在替换的过程中备份原文件为file.txt.bak。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>忽略大小写：
+&lt;code>sed 's/old/new/I' file.txt&lt;/code>：忽略大小写进行替换。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>执行多个编辑命令：
+&lt;code>sed -e 's/old/new/' -e 's/pattern/replace/' file.txt&lt;/code>：执行多个编辑命令，分别替换文本中的old和pattern。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>只处理文件的部分内容：
+&lt;code>sed '1,10d' file.txt&lt;/code>：删除文件file.txt的第1到第10行。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>指定文件的扩展名：
+&lt;code>sed -i.bak 's/old/new/' *.txt&lt;/code>：在所有扩展名为txt的文件中替换old为new，并备份原文件。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>调用sed脚本文件：
+&lt;code>sed -f script.sed file.txt&lt;/code>：根据script.sed中的脚本，对文件file.txt进行编辑。&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>socat的使用方法
+socat是一款强大的网络工具，可以在不同的网络连接之间进行双向数据传输或转发。以下是socat的常用使用方法和实例：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>创建一个TCP监听端口：socat TCP-LISTEN:8080&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>连接到远程TCP服务器：socat TCP:127.0.0.1:8080&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>创建一个UDP监听端口：socat UDP-LISTEN:8080&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>连接到远程UDP服务器：socat UDP:127.0.0.1:8080&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>使用socat作为简单的网络代理：socat TCP-LISTEN:8080,fork TCP:webserver:80&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在两个远程主机之间建立加密隧道：socat openssl:localhost:8080,verify=0 openssl:remotehost:8080&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>监听UNIX域套接字连接：socat UNIX-LISTEN:/tmp/socket.sock&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>连接到UNIX域套接字：socat UNIX-CONNECT:/tmp/socket.sock&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>将数据从一个文件传输给远程主机：socat FILE:test.txt TCP:localhost:8080&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>将数据从一个远程主机传输到一个文件：socat TCP:remotehost:8080 FILE:test.txt&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>将终端的输出重定向到socat连接中：echo &amp;ldquo;Hello, World!&amp;rdquo; | socat - TCP:localhost:8080&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>将socat连接的输出重定向到终端：socat TCP:remotehost:8080 STDOUT&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在两个UART设备之间建立连接：socat -d -d pty,raw,echo=0 pty,raw,echo=0&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在一个套接字文件和一个串口之间建立连接：socat -d -d UNIX-LISTEN:/tmp/socket.sock,mode=777,bind=7,unlink-early,reuseaddr,fork,group=users,range=192.168.0.0/24 TCP:/dev/ttyS0&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>使用socat在终端之间进行简单的聊天：socat READLINE,history=$HOME/.socat_history EXEC:&amp;ldquo;tee -a $HOME/.socat_history&amp;rdquo;,pty,link=$HOME/.socat_pty&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>使用socat将输出发送到syslog：(echo &amp;ldquo;Hello, World!&amp;rdquo; | socat - EXEC:&amp;rsquo;logger -p local0.notice')&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>使用socat在终端和串行设备之间进行双向传输：socat -d -d /dev/ttyS0,raw,echo=0 &amp;ldquo;PTY,link=$HOME/.socat_pty,raw,echo=0&amp;rdquo;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>使用socat将HTTP请求发送到远程主机：socat TCP:www.example.com:80,shut-none&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>使用socat将HTTP请求发送到本地HTTP代理：echo &amp;ldquo;GET / HTTP/1.1\r\nHost: &lt;a class="link" href="https://www.example.com" target="_blank" rel="noopener"
+>www.example.com&lt;/a>\r\n\r\n&amp;rdquo; | socat - TCP:localhost:8080&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>使用socat将网络文件传输到本地：socat TCP:www.example.com:80 FILE:/path/to/save/file.txt&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>请注意，socat的使用方法非常灵活，可以通过结合不同的选项和参数来满足不同的需求。以上仅列举了一些常见的使用方法和实例，更多高级的用法可以通过参考socat的文档进行学习。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>ss的使用方法
+SS（Shadowsocks）是一种被广泛用于科学上网的代理工具，在CentOS中安装可以通过以下步骤进行：&lt;/p>
+&lt;ol>
+&lt;li>打开终端，使用root权限登录系统。&lt;/li>
+&lt;li>安装Python包管理工具pip：&lt;code>yum install python-pip&lt;/code>。&lt;/li>
+&lt;li>安装shadowsocks：&lt;code>pip install shadowsocks&lt;/code>。&lt;/li>
+&lt;li>创建配置文件：&lt;code>vi /etc/shadowsocks.json&lt;/code>。&lt;/li>
+&lt;li>在配置文件中输入以下内容：&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">{
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;#34;server&amp;#34;: &amp;#34;服务器IP地址&amp;#34;,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;#34;server_port&amp;#34;: 8388,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;#34;password&amp;#34;: &amp;#34;密码&amp;#34;,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;#34;method&amp;#34;: &amp;#34;加密方法&amp;#34;,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;#34;timeout&amp;#34;: 300
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="6">
+&lt;li>启动Shadowsocks服务：&lt;code>ssserver -c /etc/shadowsocks.json -d start&lt;/code>。&lt;/li>
+&lt;/ol>
+&lt;p>使用方法：&lt;/p>
+&lt;ol>
+&lt;li>启动Shadowsocks服务：&lt;code>ssserver -c /etc/shadowsocks.json -d start&lt;/code>。&lt;/li>
+&lt;li>停止Shadowsocks服务：&lt;code>ssserver -c /etc/shadowsocks.json -d stop&lt;/code>。&lt;/li>
+&lt;li>重启Shadowsocks服务：&lt;code>ssserver -c /etc/shadowsocks.json -d restart&lt;/code>。&lt;/li>
+&lt;li>查看Shadowsocks服务运行状态：&lt;code>ssserver -c /etc/shadowsocks.json -d status&lt;/code>。&lt;/li>
+&lt;li>修改Shadowsocks配置文件：&lt;code>vi /etc/shadowsocks.json&lt;/code>，然后重启服务。&lt;/li>
+&lt;li>添加用户：&lt;code>ssserver -c /etc/shadowsocks.json -d add_user 用户名 密码&lt;/code>。&lt;/li>
+&lt;li>修改用户密码：&lt;code>ssserver -c /etc/shadowsocks.json -d modify_user_password 用户名 新密码&lt;/code>。&lt;/li>
+&lt;li>删除用户：&lt;code>ssserver -c /etc/shadowsocks.json -d del_user 用户名&lt;/code>。&lt;/li>
+&lt;li>查看当前连接数和连接信息：&lt;code>ssserver -c /etc/shadowsocks.json -d show_connections&lt;/code>。&lt;/li>
+&lt;li>查看日志：&lt;code>tail -f /var/log/shadowsocks.log&lt;/code>。&lt;/li>
+&lt;li>指定配置文件启动Shadowsocks服务：&lt;code>ssserver -c /path/to/config.json -d start&lt;/code>。&lt;/li>
+&lt;li>使用HTTP代理模式启动Shadowsocks服务：&lt;code>ssserver -c /etc/shadowsocks.json -d start --plugin obfs-server --plugin-opts &amp;quot;obfs=http;obfs-host=www.example.com&amp;quot;&lt;/code>。&lt;/li>
+&lt;li>使用UDP转发模式启动Shadowsocks服务：&lt;code>ssserver -c /etc/shadowsocks.json -d start --udp-relay&lt;/code>。&lt;/li>
+&lt;li>通过服务端提供的HTTP API接口修改配置：&lt;code>curl -X POST -d '{
+&amp;quot;server&amp;quot;:&amp;quot;服务器IP地址&amp;quot;,
+&amp;quot;server_port&amp;quot;:8388,
+&amp;quot;password&amp;quot;:&amp;quot;新密码&amp;quot;,
+&amp;quot;method&amp;quot;:&amp;quot;加密方法&amp;quot;,
+&amp;quot;timeout&amp;quot;:300
+}' http://127.0.0.1:4040/udpate&lt;/code>。&lt;/li>
+&lt;li>使用ss-local作为本地代理客户端：&lt;code>ss-local -c /etc/shadowsocks.json -l 1080&lt;/code>。&lt;/li>
+&lt;li>使用ss-redir作为本地透明代理客户端：&lt;code>ss-redir -c /etc/shadowsocks.json -l 1080 -u -f /var/run/shadowsocks.pid&lt;/code>。&lt;/li>
+&lt;li>使用ss-tunnel作为本地DNS加密代理客户端：&lt;code>ss-tunnel -c /etc/shadowsocks.json -l 5353 -L 8.8.8.8:53 -u -f /var/run/shadowsocks.pid&lt;/code>。&lt;/li>
+&lt;li>使用ss-manager作为服务器管理工具：&lt;code>ss-manager -c /etc/shadowsocks.json -u -f /var/run/shadowsocks.pid&lt;/code>。&lt;/li>
+&lt;li>使用ss-nat作为NAT透明代理服务器：&lt;code>ss-nat -s 0.0.0.0 -G 0.0.0.0 -l 1080 -u -f /var/run/shadowsocks.pid&lt;/code>。&lt;/li>
+&lt;li>使用ss-pcap作为抓包工具：&lt;code>ss-pcap -i eth0 -o packet.pcap -U -g 'dst port 80'&lt;/code>。&lt;/li>
+&lt;/ol>
+&lt;p>以上是SS工具的常用使用方法和实例，不同实例适用于不同的需求和场景。请根据自己的需求选择合适的命令进行操作。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>systemctl的使用方法
+systemctl是CentOS、Fedora和其他系统中用于管理系统服务的命令。下面是systemctl的常用使用方法和实例：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>启动服务：&lt;code>systemctl start 服务名&lt;/code>
+例如： &lt;code>systemctl start httpd&lt;/code>启动Apache HTTP服务器。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>停止服务：&lt;code>systemctl stop 服务名&lt;/code>
+例如： &lt;code>systemctl stop httpd&lt;/code>停止Apache HTTP服务器。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>重启服务：&lt;code>systemctl restart 服务名&lt;/code>
+例如： &lt;code>systemctl restart httpd&lt;/code>重启Apache HTTP服务器。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看服务状态：&lt;code>systemctl status 服务名&lt;/code>
+例如： &lt;code>systemctl status httpd&lt;/code>查看Apache HTTP服务器的状态。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>启用服务：&lt;code>systemctl enable 服务名&lt;/code>
+例如： &lt;code>systemctl enable httpd&lt;/code>在系统启动时自动启用Apache HTTP服务器。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>禁用服务：&lt;code>systemctl disable 服务名&lt;/code>
+例如： &lt;code>systemctl disable httpd&lt;/code>在系统启动时禁用Apache HTTP服务器。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看所有已启用的服务：&lt;code>systemctl list-unit-files --type=service --state=enabled&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看所有正在运行的服务：&lt;code>systemctl list-units --type=service --state=running&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看所有服务的状态：&lt;code>systemctl list-units --type=service --all&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看服务的依赖关系：&lt;code>systemctl list-dependencies 服务名&lt;/code>
+例如： &lt;code>systemctl list-dependencies httpd&lt;/code>查看Apache HTTP服务器的依赖关系。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看服务的日志：&lt;code>journalctl -u 服务名&lt;/code>
+例如： &lt;code>journalctl -u httpd&lt;/code>查看Apache HTTP服务器的日志。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>显示服务的详细信息：&lt;code>systemctl show 服务名&lt;/code>
+例如： &lt;code>systemctl show httpd&lt;/code>显示Apache HTTP服务器的详细信息。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看服务的启动日志：&lt;code>journalctl -u 服务名 --since today&lt;/code>
+例如： &lt;code>journalctl -u httpd --since today&lt;/code>查看Apache HTTP服务器今天的启动日志。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>设置服务的开机启动顺序：&lt;code>systemctl set-default 服务名&lt;/code>
+例如： &lt;code>systemctl set-default multi-user.target&lt;/code>设置系统的默认目标为多用户模式。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看默认的目标：&lt;code>systemctl get-default&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>切换目标：&lt;code>systemctl isolate 目标名&lt;/code>
+例如： &lt;code>systemctl isolate graphical.target&lt;/code>切换到图形界面模式。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>重载systemctl配置：&lt;code>systemctl daemon-reload&lt;/code>
+例如： &lt;code>systemctl daemon-reload&lt;/code>重载systemctl配置。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>显示服务的加载状态：&lt;code>systemctl show-environment&lt;/code>
+例如： &lt;code>systemctl show-environment&lt;/code>显示服务的加载状态。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查找特定服务：&lt;code>systemctl list-unit-files | grep 服务名&lt;/code>
+例如： &lt;code>systemctl list-unit-files | grep httpd&lt;/code>查找所有与httpd相关的服务。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看服务所属的切片：&lt;code>systemctl show 服务名 -p Slice&lt;/code>
+例如： &lt;code>systemctl show httpd -p Slice&lt;/code>查看httpd服务所属的切片。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>这些是systemctl的一些常用使用方法和实例，可用于管理和监控CentOS系统中的服务。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>tmux的使用方法
+tmux是一个终端复用工具，它允许用户在单个终端窗口中使用多个终端会话。以下是tmux的常用使用方法：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>安装tmux：
+在CentOS中，可以使用以下命令来安装tmux：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo yum install tmux
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>启动tmux会话：
+在终端中输入以下命令来启动tmux会话：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">tmux
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>创建新窗口：
+按下&lt;code>Ctrl+b&lt;/code>，然后按下&lt;code>c&lt;/code>来创建一个新的窗口。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>切换窗口：
+按下&lt;code>Ctrl+b&lt;/code>，然后使用&lt;code>n&lt;/code>和&lt;code>p&lt;/code>来切换到下一个和上一个窗口。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>关闭窗口：
+在要关闭的窗口中，按下&lt;code>Ctrl+b&lt;/code>，然后按下&lt;code>&amp;amp;&lt;/code>来关闭当前窗口。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>分割窗口：
+按下&lt;code>Ctrl+b&lt;/code>，然后按下&lt;code>%&lt;/code>垂直分割当前窗口，按下&lt;code>&amp;quot;&lt;/code>水平分割当前窗口。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>切换窗格：
+按下&lt;code>Ctrl+b&lt;/code>，然后使用方向键或&lt;code>o&lt;/code>来切换到不同的窗格。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>调整窗格大小：
+按下&lt;code>Ctrl+b&lt;/code>，然后按住&lt;code>Ctrl&lt;/code>，同时使用方向键来调整当前窗口的大小。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>重命名窗口：
+按下&lt;code>Ctrl+b&lt;/code>，然后按下&lt;code>,&lt;/code>来重命名当前窗口。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>列出窗口：
+按下&lt;code>Ctrl+b&lt;/code>，然后按下&lt;code>l&lt;/code>来列出所有窗口。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在窗格中执行命令：
+按下&lt;code>Ctrl+b&lt;/code>，然后输入&lt;code>:&lt;/code>进入命令行模式，在命令行中输入要在当前窗格中执行的命令。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>分离会话：
+按下&lt;code>Ctrl+b&lt;/code>，然后按下&lt;code>d&lt;/code>来分离当前会话。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>重新连接会话：
+输入以下命令重新连接到先前分离的会话：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">tmux attach
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>查看帮助：
+按下&lt;code>Ctrl+b&lt;/code>，然后按下&lt;code>?&lt;/code>来查看tmux的帮助文档。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>复制模式：
+按下&lt;code>Ctrl+b&lt;/code>，然后按下&lt;code>[&lt;/code>进入复制模式，使用方向键选择要复制的文本，按下&lt;code>Enter&lt;/code>复制选中的文本。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>粘贴复制的文本：
+按下&lt;code>Ctrl+b&lt;/code>，然后按下&lt;code>]&lt;/code>进行粘贴复制的文本。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>注销会话：
+按下&lt;code>Ctrl+b&lt;/code>，然后输入&lt;code>:&lt;/code>进入命令行模式，在命令行中输入&lt;code>kill-session&lt;/code>来注销当前会话。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>设置窗口标题：
+按下&lt;code>Ctrl+b&lt;/code>，然后输入&lt;code>:&lt;/code>进入命令行模式，在命令行中输入&lt;code>set-window-option -g automatic-rename on&lt;/code>来启用自动命名窗口。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>保存会话：
+按下&lt;code>Ctrl+b&lt;/code>，然后输入&lt;code>:&lt;/code>进入命令行模式，在命令行中输入&lt;code>save-buffer &amp;lt;文件名&amp;gt;&lt;/code>来保存当前会话的状态到一个文件。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>恢复会话：
+输入以下命令恢复先前保存的会话：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">tmux source-file &amp;lt;文件名&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;/ol>
+&lt;p>这些是tmux的常用使用方法，你可以根据自己的需求和喜好来运用它。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>top的使用方法
+top是一个用于监视系统资源和进程的命令行工具。在CentOS中，您可以通过以下命令安装top：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo yum install -y procps-ng
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>以下是top的常用使用方法和实例：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>查看系统总体资源使用情况：打开终端，输入&lt;code>top&lt;/code>命令，会显示系统总体资源使用情况，包括CPU使用率、内存使用情况、进程数量等。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>实时查看CPU占用最高的进程：在top界面中，按下&lt;code>Shift + P&lt;/code>，按CPU使用率排序，并且最高的进程会出现在最上面。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>实时查看内存占用最高的进程：在top界面中，按下&lt;code>Shift + M&lt;/code>，按内存使用情况排序，并且最高的进程会出现在最上面。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看指定进程的详细信息：在top界面中，按下&lt;code>Shift + F&lt;/code>，然后按下&lt;code>j&lt;/code>，然后输入进程的PID，并按下回车，可以查看指定进程的详细信息。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>根据CPU使用率显示进程列表：在top界面中，按下&lt;code>Shift + f&lt;/code>，然后按下&lt;code>P&lt;/code>，按照CPU使用率进行排序。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>根据内存使用情况显示进程列表：在top界面中，按下&lt;code>Shift + f&lt;/code>，然后按下&lt;code>M&lt;/code>，按照内存使用情况进行排序。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>移除或显示特定用户的进程：在top界面中，按下&lt;code>Shift + u&lt;/code>，然后输入用户名，可以选择显示或隐藏该用户的进程。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看特定进程树：在top界面中，按下&lt;code>Shift + t&lt;/code>，可以显示进程树视图，以及每个进程的父进程ID。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看特定用户的所有进程：在top界面中，按下&lt;code>Shift + u&lt;/code>，然后按下&lt;code>u&lt;/code>，再次按下&lt;code>Enter&lt;/code>，可以查看特定用户的所有进程。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>设置top显示的进程数量：在top界面中，按下&lt;code>Shift + e&lt;/code>，然后输入数字，可以设置显示的进程数量。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>设置top的刷新频率：在top界面中，按下&lt;code>s&lt;/code>，然后输入一个新的刷新频率（单位为秒），按下&lt;code>Enter&lt;/code>，可以改变top的刷新频率。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>将top的运行结果输出到文件：在终端中运行下面的命令，可以将top的运行结果输出到文件：&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">top -b -n 1 &amp;gt; top_result.txt
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>以上是top的常用使用方法和实例，可以帮助您监视和管理系统资源和进程。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>umount的使用方法
+umount命令用于卸载（取消挂载）已经挂载的文件系统。&lt;/p>
+&lt;p>常用的umount命令的使用方法如下：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>卸载指定的挂载点：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">umount &amp;lt;挂载点路径&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>例如，卸载挂载点为&amp;quot;/mnt/usb&amp;quot;的文件系统：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">umount /mnt/usb
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>卸载指定设备的挂载点：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">umount &amp;lt;设备路径&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>例如，卸载设备路径为&amp;quot;/dev/sdb1&amp;quot;的文件系统：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">umount /dev/sdb1
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>强制卸载挂载点，即使挂载点正在使用中：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">umount -f &amp;lt;挂载点路径&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>例如，强制卸载挂载点为&amp;quot;/mnt/usb&amp;quot;的文件系统：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">umount -f /mnt/usb
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>显示卸载过程的详细信息：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">umount -v &amp;lt;挂载点路径&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>例如，显示卸载过程的详细信息，并卸载挂载点为&amp;quot;/mnt/usb&amp;quot;的文件系统：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">umount -v /mnt/usb
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>使用mount点卸载所有挂载点：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">umount -a
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>例如，卸载所有已经挂载的文件系统：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">umount -a
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>在所有挂载点都卸载后，重启系统：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">umount -ar
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>例如，卸载所有已经挂载的文件系统后重启系统：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">umount -ar
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>按指定顺序卸载所有挂载点：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">umount -O &amp;lt;顺序文件&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>例如，使用&amp;quot;/etc/umount.order&amp;quot;文件定义的顺序卸载所有挂载点：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">umount -O /etc/umount.order
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>显示文件系统的卸载状态：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">umount -l
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>例如，显示文件系统的卸载状态：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">umount -l
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>显示umount命令的帮助信息：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">umount -h
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;/ol>
+&lt;p>以上是umount命令的一些常用使用方法和实例。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>uptime的使用方法
+uptime是一个用于显示系统运行时间和负载平均值的命令行工具。&lt;/p>
+&lt;p>常见使用方法：&lt;/p>
+&lt;ol>
+&lt;li>打开终端，并输入命令 &amp;ldquo;uptime&amp;rdquo;，系统会显示当前的时间、系统已运行的时间以及系统的平均负载情况。&lt;/li>
+&lt;li>使用 &amp;ldquo;-s&amp;rdquo; 选项，命令 &amp;ldquo;uptime -s&amp;rdquo; 可以显示系统的启动时间。&lt;/li>
+&lt;li>使用 &amp;ldquo;-p&amp;rdquo; 选项，命令 &amp;ldquo;uptime -p&amp;rdquo; 可以以易读的方式显示系统已运行的时间。&lt;/li>
+&lt;li>使用 &amp;ldquo;-h&amp;rdquo; 选项，命令 &amp;ldquo;uptime -h&amp;rdquo; 可以在输出中包含两个字母的主机名。&lt;/li>
+&lt;li>使用 &amp;ldquo;-V&amp;rdquo; 选项，命令 &amp;ldquo;uptime -V&amp;rdquo; 可以显示 uptime 的版本信息。&lt;/li>
+&lt;/ol>
+&lt;p>常用实例：&lt;/p>
+&lt;ol>
+&lt;li>获取系统运行时间和平均负载：uptime&lt;/li>
+&lt;li>获取系统的启动时间：uptime -s&lt;/li>
+&lt;li>以易读的方式显示系统已运行的时间：uptime -p&lt;/li>
+&lt;li>在输出中包含两个字母的主机名：uptime -h&lt;/li>
+&lt;li>显示 uptime 的版本信息：uptime -V&lt;/li>
+&lt;/ol>
+&lt;p>通过以上的使用方法和实例，你可以更好地了解和使用 uptime 工具。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>userdel的使用方法
+userdel命令用于删除系统中的用户账号。下面是userdel命令的常用使用方法和常用示例：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>删除用户账号（不删除用户的主目录）：
+&lt;code>userdel username&lt;/code>
+例如：&lt;code>userdel testuser&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>删除用户账号及其主目录：
+&lt;code>userdel -r username&lt;/code>
+例如：&lt;code>userdel -r testuser&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>指定其他用户的密码作为提示：
+&lt;code>userdel -Z username&lt;/code>
+例如：&lt;code>userdel -Z testuser&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>仅从系统文件中删除用户账号（不破坏用户的家目录和email文件）：
+&lt;code>userdel -f username&lt;/code>
+例如：&lt;code>userdel -f testuser&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>删除用户账号时显示详细信息：
+&lt;code>userdel -v username&lt;/code>
+例如：&lt;code>userdel -v testuser&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>强制删除用户账号，即使用户正在登录：
+&lt;code>userdel -f -r username&lt;/code>
+例如：&lt;code>userdel -f -r testuser&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>仅从系统文件中删除用户账号，而不检查相关进程：
+&lt;code>userdel -Zf username&lt;/code>
+例如：&lt;code>userdel -Zf testuser&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>删除用户账号时不提示确认：
+&lt;code>userdel -f -r -Z username&lt;/code>
+例如：&lt;code>userdel -f -r -Z testuser&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>删除用户账号之前运行一个脚本：
+&lt;code>userdel -p pre_script -r username&lt;/code>
+例如：&lt;code>userdel -p /path/to/pre_script.sh -r testuser&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>指定一个备份目录，将用户的主目录备份到该目录中：
+&lt;code>userdel -b backup_directory -r username&lt;/code>
+例如：&lt;code>userdel -b /backup -r testuser&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>列出将要删除的用户账号信息：
+&lt;code>userdel -D username&lt;/code>
+例如：&lt;code>userdel -D testuser&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>从文件中批量删除用户账号：
+&lt;code>userdel -l username_file&lt;/code>
+例如：&lt;code>userdel -l /path/to/username_file&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>仅删除用户账号的密码，保留用户账号但不能登录：
+&lt;code>userdel -p username&lt;/code>
+例如：&lt;code>userdel -p testuser&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>删除用户账号但保留其家目录中的文件：
+&lt;code>userdel -m username&lt;/code>
+例如：&lt;code>userdel -m testuser&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>删除目标用户的主组：
+&lt;code>userdel -g username&lt;/code>
+例如：&lt;code>userdel -g testuser&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>删除用户的附加组：
+&lt;code>userdel -G groupname username&lt;/code>
+例如：&lt;code>userdel -G admin testuser&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>确保用户主目录的内容保持不变，而只删除用户：
+&lt;code>userdel -s username&lt;/code>
+例如：&lt;code>userdel -s testuser&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>强制删除指定组的用户：
+&lt;code>userdel --force -g groupname&lt;/code>
+例如：&lt;code>userdel --force -g testgroup&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>删除指定 shell 的用户账号：
+&lt;code>userdel -s /bin/shell username&lt;/code>
+例如：&lt;code>userdel -s /bin/bash testuser&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>删除用户的所有邮箱：
+&lt;code>userdel -m -e username&lt;/code>
+例如：&lt;code>userdel -m -e testuser&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>请注意，使用&lt;code>userdel&lt;/code>命令需要root权限。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>wc的使用方法&lt;/p>
+&lt;ol>
+&lt;li>wc命令用于统计文本文件的行数、字数和字符数。&lt;/li>
+&lt;li>基本语法：wc [选项] [文件]，选项可选，文件是要统计的文件列表。&lt;/li>
+&lt;li>常用选项：
+-l 或 &amp;ndash;lines: 输出行数。
+-w 或 &amp;ndash;words: 输出字数。
+-c 或 &amp;ndash;bytes: 输出字符数。
+-m 或 &amp;ndash;chars: 输出字符数（和-c选项相同）。
+-L 或 &amp;ndash;max-line-length: 输出最长行的长度。
+-s 或 &amp;ndash;summarize: 输出文件总计行数、字数和字符数。
+-h 或 &amp;ndash;help: 显示帮助信息。&lt;/li>
+&lt;li>示例：
+&lt;ul>
+&lt;li>统计文件的行数：wc -l file.txt&lt;/li>
+&lt;li>统计文件的字数：wc -w file.txt&lt;/li>
+&lt;li>统计文件的字符数：wc -c file.txt&lt;/li>
+&lt;li>统计多个文件的行数、字数和字符数：wc -l -w -c file1.txt file2.txt&lt;/li>
+&lt;li>输出文件总计行数、字数和字符数：wc -l -w -c -s file1.txt file2.txt&lt;/li>
+&lt;li>输出最长行的长度：wc -L file.txt&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>wget的使用方法
+wget是一个常用的命令行工具，用于从网络上下载文件。它支持HTTP、HTTPS和FTP协议，并且具有断点续传的功能。&lt;/p>
+&lt;p>常用的使用方法有：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>下载文件：wget [URL]，例如：wget &lt;a class="link" href="https://example.com/file.zip" target="_blank" rel="noopener"
+>https://example.com/file.zip&lt;/a>。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>下载到指定文件名：wget -O [文件名] [URL]，例如：wget -O myfile.zip &lt;a class="link" href="https://example.com/file.zip" target="_blank" rel="noopener"
+>https://example.com/file.zip&lt;/a>。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>后台下载文件：wget -b [URL]，下载过程会在后台运行。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>断点续传：如果下载中断，重新运行相同的wget命令，它会从中断的地方继续下载。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>限速下载：wget &amp;ndash;limit-rate=[速度] [URL]，例如：wget &amp;ndash;limit-rate=200k &lt;a class="link" href="https://example.com/file.zip" target="_blank" rel="noopener"
+>https://example.com/file.zip&lt;/a>，限制下载速度为200KB/s。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>下载列表中的多个文件：将要下载的文件的URL保存在一个文件中，使用wget -i [文件名]命令下载。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>递归下载：wget -r [URL]，下载指定URL下的所有文件和子目录。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>忽略robots.txt文件：wget -e robots=off [URL]，默认情况下，wget会遵守网站的robots.txt文件，使用该选项可以忽略该文件。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>执行后续命令：下载完成后，可以指定执行一个指定的命令，例如：wget -O myfile.zip &lt;a class="link" href="https://example.com/file.zip;" target="_blank" rel="noopener"
+>https://example.com/file.zip;&lt;/a> echo &amp;lsquo;Download finished!&amp;rsquo;。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>显示详细进度信息：wget &amp;ndash;progress=bar:force [URL]，显示以进度条的形式下载的进度。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>限制重定向次数：wget &amp;ndash;max-redirect=[次数] [URL]，限制重定向的最大次数。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>静默模式：wget -q [URL]，禁止任何输出。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>设置用户代理：wget &amp;ndash;user-agent=&amp;quot;[用户代理]&amp;quot; [URL]，设置HTTP头部中的User-Agent字段。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>下载网页中的所有媒体文件：wget -p -k -nd -H -e robots=off -A [文件类型] -R [排除文件类型] [URL]，这个命令会下载指定URL网页中的所有媒体文件，如图片、音频、视频等。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>防止服务器主机休眠：wget -c [URL]，如果服务器主机休眠，该选项会持续尝试连接。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>使用代理服务器：wget &amp;ndash;proxy=on/off &amp;ndash;proxy-user=[用户名] &amp;ndash;proxy-password=[密码] [URL]，可以使用该命令来使用代理服务器下载文件。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>后台持续下载：wget &amp;ndash;continue -b [URL]，即使在断开ssh连接后，也会继续在后台进行下载。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>验证下载文件的完整性：wget &amp;ndash;content-disposition [URL]，可以验证文件的完整性并保存到正确的位置。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>下载完整的目录结构：wget &amp;ndash;no-parent -r [URL]，下载指定URL下的所有子目录以及文件。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>解析robots.txt文件：使用wget -qO- [URL]/robots.txt命令可以查看一个网站的robots.txt文件的内容。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>安装wget：在CentOS上，可以使用以下命令安装wget：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo yum install wget
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>这样就可以使用wget命令了。&lt;/p></description></item><item><title/><link>https://demo.stack.jimmycai.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/</guid><description>&lt;p>yum的使用方法
+yum是CentOS中常用的包管理工具，用于安装、升级、删除软件包以及解决软件包的依赖关系。下面是yum的常用使用方法和实例：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>安装软件包：使用yum install命令安装指定的软件包，例如：yum install package_name。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>升级软件包：使用yum update命令升级所有已安装的软件包，例如：yum update。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>搜索软件包：使用yum search命令搜索可用的软件包，例如：yum search keyword。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>列出已安装的软件包：使用yum list installed命令列出所有已安装的软件包，例如：yum list installed。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>删除软件包：使用yum remove命令删除指定的软件包，例如：yum remove package_name。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>清理缓存：使用yum clean命令清理yum缓存，例如：yum clean all。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>解决软件包依赖关系：使用yum deplist命令列出指定软件包的依赖关系，例如：yum deplist package_name。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>列出可用的仓库：使用yum repolist命令列出所有可用的yum仓库，例如：yum repolist。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>启用/禁用仓库：使用yum-config-manager命令启用或禁用指定的yum仓库，例如：yum-config-manager &amp;ndash;disable repository_name。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>更新仓库信息：使用yum clean metadata命令更新yum仓库的元数据，例如：yum clean metadata。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看软件包信息：使用yum info命令查看指定软件包的详细信息，例如：yum info package_name。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>安装指定版本的软件包：使用yum install package_name-version命令安装指定版本的软件包，例如：yum install package_name-1.0.0。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>使用本地源安装软件包：使用yum localinstall命令从本地源安装软件包，例如：yum localinstall package.rpm。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>配置代理服务器：使用yum-config-manager命令配置代理服务器，例如：yum-config-manager &amp;ndash;setopt=http_proxy=http://proxy.example.com:8080。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>安装软件包组：使用yum groupinstall命令安装指定的软件包组，例如：yum groupinstall group_name。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>升级指定软件包组：使用yum update group_name命令升级指定的软件包组，例如：yum update group_name。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>下载软件包但不安装：使用yumdownloader命令下载软件包但不安装，例如：yumdownloader package_name。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>查看软件包提供的文件：使用yum provides命令查看指定文件属于哪个软件包，例如：yum provides /usr/bin/ls。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>配置软件包优先级：使用yum-plugin-priorities插件配置软件包的优先级，以解决软件包冲突问题。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>导出已安装软件包的列表：使用yum list installed &amp;gt; packages.txt命令将已安装的软件包列表导出到文件中。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>这些是yum的一些常用和常见的使用方法和实例，可以满足日常的软件包管理需求。&lt;/p></description></item></channel></rss>
